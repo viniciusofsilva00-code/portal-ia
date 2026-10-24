@@ -30,8 +30,7 @@ content:
         type: date
         required: true
         options:
-          time: true
-          format: "yyyy-MM-dd'T'HH:mm:ssXXX"
+          format: "yyyy-MM-dd"
       - name: resumo
         label: Resumo (uma frase, aparece na home)
         type: text

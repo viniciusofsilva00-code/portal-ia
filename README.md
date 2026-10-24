@@ -37,6 +37,9 @@ Um post com `editado_manualmente: true` no frontmatter nunca é alterado pela ro
 4. **Despublicar:** marque *Despublicado (rascunho)* e salve. O post sai do site, mas o arquivo continua no repositório.
 5. **Apagar:** no menu do post, use *Delete*.
 
+No painel a data de publicação é só o dia; o site considera meio-dia (horário de Brasília).
+Posts da rotina guardam também a hora.
+
 Cada salvamento vira um commit e dispara o workflow **Deploy (painel e pushes)**. O site atualiza
 em 1 a 2 minutos.
 
