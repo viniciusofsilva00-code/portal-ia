@@ -56,6 +56,35 @@
       "tema": "Andy Jassy diz que capacidade de nuvem da AWS está praticamente vendida até 2027",
       "data": "2026-10-24",
       "post": "2026-10-24-aws-capacidade-de-nuvem-vendida-ate-2027"
+    },
+    {
+      "url": "https://policies.google.com/privacy",
+      "urls": [
+        "https://policies.google.com/privacy",
+        "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
+      ],
+      "tema": "Política de privacidade do Google de 16/10/2026 permite que dados do Gmail, Drive e Fotos liberados ao Personal Intelligence personalizem anúncios",
+      "data": "2026-10-24",
+      "post": "2026-10-24-google-politica-privacidade-gmail-anuncios"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/canva-lanca-gerador-de-imagens-proprio-que-cria-artes-editaveis-em-camadas/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/canva-lanca-gerador-de-imagens-proprio-que-cria-artes-editaveis-em-camadas/",
+        "https://olhardigital.com.br/2026/10/24/internet-e-redes-sociais/canva-craft-conheca-a-ia-que-planeja-o-layout-antes-de-gerar-a-imagem/"
+      ],
+      "tema": "Canva lança o Craft, primeiro modelo próprio de geração de imagens, com planejamento de layout e camadas editáveis",
+      "data": "2026-10-24",
+      "post": "2026-10-24-canva-lanca-modelo-craft"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/como-compartilhar-perfil-chatgpt/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/como-compartilhar-perfil-chatgpt/"
+      ],
+      "tema": "OpenAI libera perfis compartilháveis no ChatGPT com métricas de uso, tokens do Codex e vitrine de Sites",
+      "data": "2026-10-24",
+      "post": "2026-10-24-chatgpt-perfis-compartilhaveis"
     }
   ]
 }
