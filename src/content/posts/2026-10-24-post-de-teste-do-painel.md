@@ -8,7 +8,7 @@ fontes:
   - nome: Portal IA
     url: https://viniciusofsilva00-code.github.io/portal-ia/
 rascunho: false
-editado_manualmente: false
+editado_manualmente: true
 origem: painel
 ---
 Este é um post de teste criado pelo painel para validar o fluxo de publicação.
