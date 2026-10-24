@@ -3,6 +3,9 @@ import Base from '../layouts/Base.astro';
 import { url } from '../lib/util';
 ---
 <Base titulo="Página não encontrada">
-  <h1>Página não encontrada</h1>
+  <section class="hero">
+    <span class="kicker">Erro 404</span>
+    <h1>Página não encontrada.</h1>
+  </section>
   <p>O post pode ter sido despublicado ou removido. <a href={url()}>Voltar para a home</a>.</p>
 </Base>

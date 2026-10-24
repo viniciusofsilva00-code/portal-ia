@@ -9,6 +9,13 @@ interface Props {
 const { titulo, descricao = SITE_DESCRICAO } = Astro.props;
 const tituloCompleto = titulo ? `${titulo} — ${SITE_TITULO}` : SITE_TITULO;
 const canonical = new URL(Astro.url.pathname, Astro.site);
+const caminho = Astro.url.pathname;
+const nav = [
+  { href: url('arquivo/'), rotulo: 'Arquivo' },
+  { href: url('tags/'), rotulo: 'Tags' },
+  { href: url('busca/'), rotulo: 'Busca' },
+  { href: url('rss.xml'), rotulo: 'RSS' },
+];
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -17,9 +24,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{tituloCompleto}</title>
     <meta name="description" content={descricao} />
+    <meta name="theme-color" content="#0a0a0a" />
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title={SITE_TITULO} href={url('rss.xml')} />
     <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    />
     <meta property="og:title" content={tituloCompleto} />
     <meta property="og:description" content={descricao} />
     <meta property="og:type" content="website" />
@@ -28,12 +42,14 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <body>
     <header class="site">
       <div class="wrap">
-        <a class="marca" href={url()}>{SITE_TITULO}</a>
-        <nav>
-          <a href={url('arquivo/')}>Arquivo</a>
-          <a href={url('tags/')}>Tags</a>
-          <a href={url('busca/')}>Busca</a>
-          <a href={url('rss.xml')}>RSS</a>
+        <a class="marca" href={url()} aria-label={`${SITE_TITULO} — início`}>
+          <span class="chip" aria-hidden="true">IA</span>
+          <span>portal_ia<span class="cursor" aria-hidden="true"></span></span>
+        </a>
+        <nav aria-label="Principal">
+          {nav.map((n) => (
+            <a href={n.href} aria-current={caminho.startsWith(n.href) ? 'page' : undefined}>{n.rotulo}</a>
+          ))}
         </nav>
       </div>
     </header>
@@ -42,8 +58,11 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     </main>
     <footer class="site">
       <div class="wrap">
-        Curadoria automática revisada por regras editoriais. Cada post resume e analisa notícias
-        publicadas por terceiros; o conteúdo original pertence às fontes citadas.
+        <span>
+          Curadoria automática revisada por regras editoriais. Cada post resume e analisa notícias
+          publicadas por terceiros; o conteúdo original pertence às fontes citadas.
+        </span>
+        <span class="mono">// atualizado todo dia às 08:00 BRT · <a href={url('rss.xml')}>rss</a></span>
       </div>
     </footer>
   </body>

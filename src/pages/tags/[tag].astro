@@ -10,7 +10,10 @@ export async function getStaticPaths() {
 const { nome, posts } = Astro.props as { nome: string; posts: Post[] };
 ---
 <Base titulo={`Tag: ${nome}`}>
-  <p class="meta"><a href={url('tags/')}>← Todas as tags</a></p>
-  <h1>{nome}</h1>
+  <section class="hero">
+    <a class="kicker" href={url('tags/')} style="text-decoration:none">Todas as tags</a>
+    <h1>#{nome}</h1>
+    <p class="mono">{posts.length} {posts.length === 1 ? 'post' : 'posts'}</p>
+  </section>
   <ListaPosts posts={posts} />
 </Base>

@@ -6,7 +6,10 @@ import { postsPublicados } from '../lib/util';
 const posts = await postsPublicados();
 ---
 <Base titulo="Arquivo">
-  <h1>Arquivo</h1>
-  <p class="meta">{posts.length} posts</p>
-  <ListaPosts posts={posts} agruparPorDia />
+  <section class="hero">
+    <span class="kicker">Arquivo</span>
+    <h1>Tudo o que já saiu.</h1>
+    <p class="mono">{posts.length} posts, do mais recente ao mais antigo.</p>
+  </section>
+  <ListaPosts posts={posts} />
 </Base>

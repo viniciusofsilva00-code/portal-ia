@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { dataBR, postsPublicados, slugTag, url, type Post } from '../../lib/util';
+import { dataBR, postsPublicados, slugTag, tempoLeitura, url, type Post } from '../../lib/util';
 
 export async function getStaticPaths() {
   const posts = await postsPublicados();
@@ -14,29 +14,34 @@ const [original, ...complementares] = post.data.fontes;
 ---
 <Base titulo={post.data.titulo} descricao={post.data.resumo || undefined}>
   <article class="post" data-pagefind-body>
-    <div class="meta">
-      <time datetime={post.data.data.toISOString()} data-pagefind-meta="data">{dataBR(post.data.data)}</time>
-    </div>
-    <h1>{post.data.titulo}</h1>
-    {post.data.tags.length > 0 && (
-      <ul class="tags">
-        {post.data.tags.map((t) => (
-          <li><a href={url(`tags/${slugTag(t)}/`)} data-pagefind-filter="tag">{t}</a></li>
-        ))}
-      </ul>
-    )}
+    <a class="voltar" href={url()} data-pagefind-ignore>← início</a>
+    <header>
+      <div class="meta">
+        <time datetime={post.data.data.toISOString()} data-pagefind-meta="data">{dataBR(post.data.data)}</time>
+        <span class="sep">/</span><span data-pagefind-ignore>{tempoLeitura(post)} min de leitura</span>
+      </div>
+      <h1>{post.data.titulo}</h1>
+      {post.data.resumo && <p class="lead" data-pagefind-ignore>{post.data.resumo}</p>}
+      {post.data.tags.length > 0 && (
+        <ul class="tags">
+          {post.data.tags.map((t) => (
+            <li><a href={url(`tags/${slugTag(t)}/`)} data-pagefind-filter="tag">{t}</a></li>
+          ))}
+        </ul>
+      )}
+    </header>
     <div class="corpo">
       <Content />
     </div>
     {post.data.fontes.length > 0 && (
       <section class="fontes">
-        <strong>Fontes</strong>
+        <h2>Fontes</h2>
         <ul>
           {original && (
-            <li>Original: <a href={original.url} rel="noopener" target="_blank">{original.nome}</a></li>
+            <li><span class="rotulo">Original</span><a href={original.url} rel="noopener" target="_blank">{original.nome}</a></li>
           )}
           {complementares.map((f) => (
-            <li>Complementar: <a href={f.url} rel="noopener" target="_blank">{f.nome}</a></li>
+            <li><span class="rotulo">Complementar</span><a href={f.url} rel="noopener" target="_blank">{f.nome}</a></li>
           ))}
         </ul>
       </section>

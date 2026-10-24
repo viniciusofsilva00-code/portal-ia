@@ -4,7 +4,10 @@ import { url } from '../lib/util';
 ---
 <Base titulo="Busca">
   <link slot="head" rel="stylesheet" href={url('pagefind/pagefind-ui.css')} />
-  <h1>Busca</h1>
+  <section class="hero">
+    <span class="kicker">Busca</span>
+    <h1>Procure em todos os posts.</h1>
+  </section>
   <div id="busca"></div>
   <noscript>A busca precisa de JavaScript.</noscript>
   <script is:inline define:vars={{ bundle: url('pagefind/') }}>
@@ -24,6 +27,10 @@ import { url } from '../lib/util';
     document.head.appendChild(s);
   </script>
   <style is:global>
-    #busca { --pagefind-ui-primary: var(--accent); --pagefind-ui-text: var(--fg); --pagefind-ui-background: var(--bg); --pagefind-ui-border: var(--line); --pagefind-ui-tag: var(--tag-bg); --pagefind-ui-font: inherit; }
+    #busca { --pagefind-ui-primary: #0a0a0a; --pagefind-ui-text: var(--fg); --pagefind-ui-background: var(--surface); --pagefind-ui-border: var(--line); --pagefind-ui-tag: var(--neon-soft); --pagefind-ui-border-width: 1px; --pagefind-ui-border-radius: 10px; --pagefind-ui-font: var(--sans); }
+    #busca .pagefind-ui__search-input { font-family: var(--mono); }
+    #busca .pagefind-ui__search-input:focus { outline: 2px solid var(--neon); outline-offset: 2px; }
+    #busca .pagefind-ui__result-link { text-decoration-color: var(--neon); }
+    #busca mark { background: rgba(255, 43, 214, .25); color: inherit; }
   </style>
 </Base>

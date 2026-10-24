@@ -1,0 +1,25 @@
+---
+import { dataCurta, slugTag, tempoLeitura, url, type Post } from '../lib/util';
+
+interface Props {
+  post: Post;
+  destaque?: boolean;
+}
+const { post: p, destaque = false } = Astro.props;
+const Titulo = destaque ? 'h2' : 'h3';
+---
+<article class:list={['card', { destaque }]}>
+  <div class="meta">
+    <time datetime={p.data.data.toISOString()}>{dataCurta(p.data.data)}</time>
+    <span class="sep">/</span>{tempoLeitura(p)} min de leitura
+  </div>
+  <Titulo class="titulo-card"><a href={url(`posts/${p.id}/`)}>{p.data.titulo}</a></Titulo>
+  {p.data.resumo && <p>{p.data.resumo}</p>}
+  {p.data.tags.length > 0 && (
+    <ul class="tags">
+      {p.data.tags.map((t) => (
+        <li><a href={url(`tags/${slugTag(t)}/`)}>{t}</a></li>
+      ))}
+    </ul>
+  )}
+</article>

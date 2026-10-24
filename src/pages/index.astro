@@ -1,20 +1,41 @@
 ---
 import Base from '../layouts/Base.astro';
-import ListaPosts from '../components/ListaPosts.astro';
-import { postsPublicados, url } from '../lib/util';
+import Card from '../components/Card.astro';
+import { dataCurta, postsPublicados, url } from '../lib/util';
 
 const posts = await postsPublicados();
-const recentes = posts.slice(0, 30);
+const [principal, ...demais] = posts;
+const recentes = demais.slice(0, 29);
+const ultima = principal ? dataCurta(principal.data.data) : '—';
 ---
 <Base>
-  <h1>Notícias de IA, todo dia</h1>
-  <p class="aviso">Curadoria das últimas 24 horas, publicada por volta das 8h (horário de Brasília).</p>
-  {recentes.length === 0 ? (
-    <p>Nenhum post publicado ainda.</p>
+  <section class="hero">
+    <span class="kicker">Curadoria diária · IA</span>
+    <h1>Notícias de IA, <span class="destaque">todo dia</span>.</h1>
+    <p>As principais notícias de inteligência artificial das últimas 24 horas, resumidas e analisadas em português.</p>
+    <div class="status">
+      <span>status: <b>online</b></span>
+      <span>última edição: <b>{ultima}</b></span>
+      <span>posts: <b>{posts.length}</b></span>
+    </div>
+  </section>
+
+  {!principal ? (
+    <p class="vazio">// nenhum post publicado ainda</p>
   ) : (
-    <ListaPosts posts={recentes} agruparPorDia />
-  )}
-  {posts.length > recentes.length && (
-    <p><a href={url('arquivo/')}>Ver todos os {posts.length} posts no arquivo →</a></p>
+    <>
+      <Card post={principal} destaque />
+      {recentes.length > 0 && (
+        <>
+          <div class="secao-titulo"><h2>Recentes</h2></div>
+          <ul class="grade">
+            {recentes.map((p) => <li><Card post={p} /></li>)}
+          </ul>
+        </>
+      )}
+      {posts.length > recentes.length + 1 && (
+        <p class="mais"><a class="botao" href={url('arquivo/')}>Ver todos os {posts.length} posts <span>→</span></a></p>
+      )}
+    </>
   )}
 </Base>

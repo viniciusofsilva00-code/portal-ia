@@ -48,3 +48,21 @@ export function todasTags(posts: Post[]): Map<string, { nome: string; posts: Pos
   }
   return mapa;
 }
+
+const fmtCurta = new Intl.DateTimeFormat('pt-BR', {
+  day: '2-digit',
+  month: 'short',
+  year: 'numeric',
+  timeZone: 'America/Sao_Paulo',
+});
+
+/** "24 out 2026" — usado nas linhas de metadados em fonte mono. */
+export function dataCurta(d: Date): string {
+  return fmtCurta.format(d).replace(/\./g, '').replace(/ de /g, ' ');
+}
+
+/** Minutos de leitura estimados a 220 palavras por minuto. */
+export function tempoLeitura(p: Post): number {
+  const palavras = (p.body || '').split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(palavras / 220));
+}

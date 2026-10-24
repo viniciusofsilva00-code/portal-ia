@@ -7,11 +7,15 @@ const tags = [...todasTags(await postsPublicados()).entries()].sort((a, b) =>
 );
 ---
 <Base titulo="Tags">
-  <h1>Tags</h1>
-  {tags.length === 0 ? <p>Nenhuma tag ainda.</p> : (
+  <section class="hero">
+    <span class="kicker">Tags</span>
+    <h1>Navegue por assunto.</h1>
+    <p class="mono">{tags.length} tags</p>
+  </section>
+  {tags.length === 0 ? <p class="vazio">// nenhuma tag ainda</p> : (
     <ul class="tags">
       {tags.map(([slug, t]) => (
-        <li><a href={url(`tags/${slug}/`)}>{t.nome} ({t.posts.length})</a></li>
+        <li><a href={url(`tags/${slug}/`)}>{t.nome}<span class="n">{t.posts.length}</span></a></li>
       ))}
     </ul>
   )}
