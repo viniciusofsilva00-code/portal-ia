@@ -85,6 +85,16 @@
       "tema": "OpenAI libera perfis compartilháveis no ChatGPT com métricas de uso, tokens do Codex e vitrine de Sites",
       "data": "2026-10-24",
       "post": "2026-10-24-chatgpt-perfis-compartilhaveis"
+    },
+    {
+      "url": "https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html",
+      "urls": [
+        "https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html",
+        "https://canaltech.com.br/inteligencia-artificial/gemini-agora-permite-publicar-miniaplicativos-direto-no-google-sites/"
+      ],
+      "tema": "Google permite exportar apps interativos criados no Gemini (Canvas) direto para o Google Sites",
+      "data": "2026-10-24",
+      "post": "2026-10-24-gemini-exporta-apps-para-google-sites"
     }
   ]
 }
