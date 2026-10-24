@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { postsPublicados, todasTags, url } from '../../lib/util';
+
+const tags = [...todasTags(await postsPublicados()).entries()].sort((a, b) =>
+  b[1].posts.length - a[1].posts.length || a[1].nome.localeCompare(b[1].nome, 'pt-BR'),
+);
+---
+<Base titulo="Tags">
+  <h1>Tags</h1>
+  {tags.length === 0 ? <p>Nenhuma tag ainda.</p> : (
+    <ul class="tags">
+      {tags.map(([slug, t]) => (
+        <li><a href={url(`tags/${slug}/`)}>{t.nome} ({t.posts.length})</a></li>
+      ))}
+    </ul>
+  )}
+</Base>

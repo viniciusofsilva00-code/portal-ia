@@ -1,0 +1,35 @@
+---
+import { dataBR, slugTag, url, type Post } from '../lib/util';
+
+interface Props {
+  posts: Post[];
+  agruparPorDia?: boolean;
+}
+const { posts, agruparPorDia = false } = Astro.props;
+let diaAnterior = '';
+const itens = posts.map((p) => {
+  const dia = dataBR(p.data.data);
+  const novoDia = agruparPorDia && dia !== diaAnterior;
+  diaAnterior = dia;
+  return { p, dia, novoDia };
+});
+---
+<ul class="lista">
+  {itens.map(({ p, dia, novoDia }) => (
+    <>
+      {novoDia && <li class="dia" aria-hidden="true">{dia}</li>}
+      <li>
+        {!agruparPorDia && <div class="meta"><time datetime={p.data.data.toISOString()}>{dia}</time></div>}
+        <h2><a href={url(`posts/${p.id}/`)}>{p.data.titulo}</a></h2>
+        {p.data.resumo && <p>{p.data.resumo}</p>}
+        {p.data.tags.length > 0 && (
+          <ul class="tags">
+            {p.data.tags.map((t) => (
+              <li><a href={url(`tags/${slugTag(t)}/`)}>{t}</a></li>
+            ))}
+          </ul>
+        )}
+      </li>
+    </>
+  ))}
+</ul>

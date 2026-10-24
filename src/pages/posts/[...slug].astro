@@ -1,0 +1,45 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { dataBR, postsPublicados, slugTag, url, type Post } from '../../lib/util';
+
+export async function getStaticPaths() {
+  const posts = await postsPublicados();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props as { post: Post };
+const { Content } = await render(post);
+const [original, ...complementares] = post.data.fontes;
+---
+<Base titulo={post.data.titulo} descricao={post.data.resumo || undefined}>
+  <article class="post" data-pagefind-body>
+    <div class="meta">
+      <time datetime={post.data.data.toISOString()} data-pagefind-meta="data">{dataBR(post.data.data)}</time>
+    </div>
+    <h1>{post.data.titulo}</h1>
+    {post.data.tags.length > 0 && (
+      <ul class="tags">
+        {post.data.tags.map((t) => (
+          <li><a href={url(`tags/${slugTag(t)}/`)} data-pagefind-filter="tag">{t}</a></li>
+        ))}
+      </ul>
+    )}
+    <div class="corpo">
+      <Content />
+    </div>
+    {post.data.fontes.length > 0 && (
+      <section class="fontes">
+        <strong>Fontes</strong>
+        <ul>
+          {original && (
+            <li>Original: <a href={original.url} rel="noopener" target="_blank">{original.nome}</a></li>
+          )}
+          {complementares.map((f) => (
+            <li>Complementar: <a href={f.url} rel="noopener" target="_blank">{f.nome}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </article>
+</Base>

@@ -1,0 +1,78 @@
+# Configuração do painel (Pages CMS — https://app.pagescms.org)
+media:
+  input: public/imagens
+  output: /portal-ia/imagens
+
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: src/content/posts
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [titulo, data, rascunho, editado_manualmente, origem]
+      primary: titulo
+      sort: [data, titulo]
+      search: [titulo, resumo, tags]
+      default:
+        sort: data
+        order: desc
+    fields:
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+        options:
+          maxlength: 160
+      - name: data
+        label: Data de publicação
+        type: date
+        required: true
+        options:
+          time: true
+          format: "yyyy-MM-dd'T'HH:mm:ssXXX"
+      - name: resumo
+        label: Resumo (uma frase, aparece na home)
+        type: text
+        options:
+          maxlength: 300
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: fontes
+        label: Fontes (a primeira é a original)
+        type: object
+        list: true
+        fields:
+          - name: nome
+            label: Nome da fonte
+            type: string
+            required: true
+          - name: url
+            label: URL
+            type: string
+            required: true
+            pattern:
+              regex: "^https?://"
+              message: "Informe uma URL começando com http:// ou https://"
+      - name: rascunho
+        label: Despublicado (rascunho)
+        description: Marque para tirar o post do site sem apagá-lo.
+        type: boolean
+        default: false
+      - name: editado_manualmente
+        label: Editado manualmente (protegido da rotina)
+        description: Mantenha marcado. A rotina diária nunca altera posts protegidos. Qualquer post salvo pelo painel é marcado automaticamente no deploy.
+        type: boolean
+        default: true
+      - name: origem
+        label: Origem
+        type: select
+        default: painel
+        options:
+          values: [painel, rotina]
+      - name: body
+        label: Texto
+        type: rich-text

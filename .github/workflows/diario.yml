@@ -1,0 +1,154 @@
+name: Rotina diária
+
+on:
+  # Agendamento (07:37 America/Sao_Paulo) é ativado após a primeira execução manual aprovada.
+  workflow_dispatch:
+    inputs:
+      simular_falha:
+        description: 'Simular falha (teste do e-mail)'
+        type: choice
+        default: nenhuma
+        options: [nenhuma, feed, build]
+
+concurrency:
+  group: diario
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  diario:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      TZ: America/Sao_Paulo
+      SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+    steps:
+      - name: Registrar início
+        id: inicio
+        run: |
+          echo "inicio=$(date -Iseconds)" >> "$GITHUB_OUTPUT"
+          echo "hoje=$(date +%F)" >> "$GITHUB_OUTPUT"
+          echo "Início do workflow: $(date '+%Y-%m-%d %H:%M:%S %Z') (evento: ${{ github.event_name }})"
+
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: 1. Coleta dos feeds
+        id: coleta
+        env:
+          SIMULAR_FEED_INVALIDO: ${{ inputs.simular_falha == 'feed' && '1' || '' }}
+        run: node scripts/coletar.mjs
+
+      - name: Proteger posts editados manualmente
+        id: protecao
+        run: node scripts/proteger.mjs antes
+
+      - name: 2. Curadoria (Claude)
+        id: curadoria
+        if: steps.coleta.outputs.candidatos != '0'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Hoje é ${{ steps.inicio.outputs.hoje }} (horário de Brasília).
+            Leia o arquivo prompts/curadoria.md e siga integralmente as instruções dele.
+          claude_args: |
+            --model claude-opus-5-5
+            --max-turns 80
+            --allowedTools "Read,Write,Edit,WebFetch"
+
+      - name: Validar posts e restaurar protegidos
+        id: validacao
+        run: |
+          node scripts/proteger.mjs depois
+          node scripts/validar.mjs
+
+      - name: Simular build quebrado
+        if: inputs.simular_falha == 'build'
+        run: |
+          printf -- '---\ndata: ontem\n---\nPost propositalmente inválido.\n' > src/content/posts/zz-simulacao-build-quebrado.md
+
+      - name: 3. Build
+        id: build
+        run: npm run build
+
+      - name: 4. Commit e push
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/posts data/publicados.json
+          if git diff --cached --quiet; then
+            echo "Sem posts novos: nada a commitar."
+            echo "feito=nao" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "noticias: ${{ steps.inicio.outputs.hoje }} (${{ steps.validacao.outputs.posts }} posts)"
+          antes=$(git rev-parse HEAD)
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "feito=sim" >> "$GITHUB_OUTPUT"
+          # Se o rebase trouxe commits novos (ex.: edição no painel durante a execução), o build precisa ser refeito.
+          if [ "$(git rev-parse HEAD)" != "$antes" ]; then echo "rebuild=sim" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Refazer build após rebase
+        if: steps.commit.outputs.rebuild == 'sim'
+        run: npm run build
+
+      - name: 5. Upload do site
+        if: steps.commit.outputs.feito == 'sim'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+      - name: 5. Deploy no GitHub Pages
+        id: deploy
+        if: steps.commit.outputs.feito == 'sim'
+        uses: actions/deploy-pages@v5
+
+      - name: 6. Montar e-mail
+        id: email
+        if: always()
+        env:
+          INICIO: ${{ steps.inicio.outputs.inicio }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ETAPAS: >-
+            {"coleta":"${{ steps.coleta.outcome }}","protecao":"${{ steps.protecao.outcome }}",
+            "curadoria":"${{ steps.curadoria.outcome }}","validacao":"${{ steps.validacao.outcome }}",
+            "build":"${{ steps.build.outcome }}","commit":"${{ steps.commit.outcome }}",
+            "deploy":"${{ steps.deploy.outcome }}"}
+        run: node scripts/email.mjs
+
+      - name: 6. Enviar e-mail
+        if: always() && steps.email.outcome == 'success'
+        uses: dawidd6/action-send-mail@v23
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Portal IA <${{ secrets.MAIL_USERNAME }}>
+          to: vinicius@anchorbrasil.com.br
+          subject: ${{ steps.email.outputs.assunto }}
+          html_body: file://tmp/email.html
+
+      - name: Registrar envio
+        if: always()
+        run: |
+          echo "Fim da rotina / envio do e-mail: $(date '+%Y-%m-%d %H:%M:%S %Z')"

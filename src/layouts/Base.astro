@@ -1,0 +1,50 @@
+---
+import '../styles/global.css';
+import { SITE_TITULO, SITE_DESCRICAO, url } from '../lib/util';
+
+interface Props {
+  titulo?: string;
+  descricao?: string;
+}
+const { titulo, descricao = SITE_DESCRICAO } = Astro.props;
+const tituloCompleto = titulo ? `${titulo} — ${SITE_TITULO}` : SITE_TITULO;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{tituloCompleto}</title>
+    <meta name="description" content={descricao} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title={SITE_TITULO} href={url('rss.xml')} />
+    <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
+    <meta property="og:title" content={tituloCompleto} />
+    <meta property="og:description" content={descricao} />
+    <meta property="og:type" content="website" />
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="marca" href={url()}>{SITE_TITULO}</a>
+        <nav>
+          <a href={url('arquivo/')}>Arquivo</a>
+          <a href={url('tags/')}>Tags</a>
+          <a href={url('busca/')}>Busca</a>
+          <a href={url('rss.xml')}>RSS</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site">
+      <div class="wrap">
+        Curadoria automática revisada por regras editoriais. Cada post resume e analisa notícias
+        publicadas por terceiros; o conteúdo original pertence às fontes citadas.
+      </div>
+    </footer>
+  </body>
+</html>

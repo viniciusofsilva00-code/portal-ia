@@ -1,0 +1,88 @@
+# Fontes lidas pela rotina diária (scripts/coletar.mjs).
+# Campos:
+#   nome:   como a fonte aparece nos posts e no e-mail
+#   url:    endereço do feed RSS/Atom
+#   peso:   1 (baixo) a 5 (alto) — ordena os candidatos e orienta a curadoria
+#   filtro: (opcional) expressão regular; só entram itens cujo título ou resumo casem com ela
+#   ativo:  (opcional) false desliga a fonte sem apagar a linha
+#   max:    (opcional) máximo de itens aproveitados por execução (padrão 15)
+# Testado em 2026-10-24: ver README.md, seção "Fontes".
+
+filtro_ia: &ia '\b(IA|AI|A\.I\.|intelig[eê]ncia artificial|artificial intelligence|LLMs?|GPT|ChatGPT|OpenAI|Anthropic|Claude|Gemini|DeepMind|Llama|Mistral|Copilot|machine learning|aprendizado de m[aá]quina|modelos? de linguagem|language models?|agentes?|agents?|chatbots?|Nvidia|Hugging ?Face|DeepSeek|Qwen|Grok|xAI)\b'
+
+fontes:
+  # Referência de tom e profundidade
+  - nome: Fabio Akita (AkitaOnRails)
+    url: https://akitaonrails.com/index.xml
+    peso: 5
+
+  # Blogs oficiais
+  - nome: Anthropic News
+    # A Anthropic não publica RSS oficial; feed espelhado pela comunidade (github.com/Olshansk/rss-feeds)
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml
+    peso: 5
+  - nome: OpenAI News
+    url: https://openai.com/news/rss.xml
+    peso: 5
+  - nome: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    peso: 5
+  - nome: Google AI (The Keyword)
+    url: https://blog.google/technology/ai/rss/
+    peso: 4
+  - nome: Google Research
+    url: https://research.google/blog/rss/
+    peso: 3
+  - nome: Meta AI
+    # ai.meta.com/blog não tem RSS (404); feed espelhado pela comunidade
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml
+    peso: 4
+  - nome: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    peso: 3
+
+  # Imprensa de tecnologia
+  - nome: The Verge (IA)
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    peso: 4
+  - nome: TechCrunch (IA)
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    peso: 4
+  - nome: Ars Technica (IA)
+    url: https://arstechnica.com/ai/feed/
+    peso: 4
+  - nome: MIT Technology Review (IA)
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    peso: 4
+  - nome: VentureBeat (IA)
+    # Respondeu 429 (limite de requisições) no teste local; mantido porque pode responder a partir do GitHub Actions
+    url: https://venturebeat.com/category/ai/feed/
+    peso: 3
+
+  # Brasil
+  - nome: Tecnoblog (IA)
+    url: https://tecnoblog.net/tema/inteligencia-artificial/feed/
+    peso: 3
+  - nome: Olhar Digital (IA)
+    url: https://olhardigital.com.br/tag/inteligencia-artificial/feed/
+    peso: 3
+  - nome: Canaltech (IA)
+    # O feed de seção não informa datas; usamos o feed geral filtrado por termos de IA
+    url: https://canaltech.com.br/rss/
+    peso: 3
+    filtro: *ia
+
+  # Comunidade
+  - nome: Hacker News (IA, 100+ pontos)
+    url: https://hnrss.org/newest?q=AI&points=100
+    peso: 2
+    filtro: *ia
+  - nome: arXiv cs.AI
+    # Só para papers de grande repercussão: a curadoria usa como apoio, não como notícia isolada
+    url: https://rss.arxiv.org/rss/cs.AI
+    peso: 1
+    max: 10
+  - nome: arXiv cs.CL
+    url: https://rss.arxiv.org/rss/cs.CL
+    peso: 1
+    max: 10

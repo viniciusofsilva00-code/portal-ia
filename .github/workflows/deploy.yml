@@ -1,0 +1,65 @@
+name: Deploy (painel e pushes)
+
+# Publica o site quando algo muda no repositório fora da rotina diária
+# (edições no Pages CMS, commits manuais). Pushes da rotina, feitos com GITHUB_TOKEN,
+# não disparam este workflow; a rotina faz o próprio deploy.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'astro.config.mjs'
+      - 'package.json'
+      - 'package-lock.json'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Marcar posts editados fora da rotina
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: |
+          arquivos=$(git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- src/content/posts)
+          [ -z "$arquivos" ] && { echo "Nenhum post alterado."; exit 0; }
+          node scripts/marcar-editados.mjs $arquivos
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -am "painel: marca posts editados manualmente"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - run: npm ci
+      - run: npm run build
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+      - id: deploy
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import ListaPosts from '../components/ListaPosts.astro';
+import { postsPublicados, url } from '../lib/util';
+
+const posts = await postsPublicados();
+const recentes = posts.slice(0, 30);
+---
+<Base>
+  <h1>Notícias de IA, todo dia</h1>
+  <p class="aviso">Curadoria das últimas 24 horas, publicada por volta das 8h (horário de Brasília).</p>
+  {recentes.length === 0 ? (
+    <p>Nenhum post publicado ainda.</p>
+  ) : (
+    <ListaPosts posts={recentes} agruparPorDia />
+  )}
+  {posts.length > recentes.length && (
+    <p><a href={url('arquivo/')}>Ver todos os {posts.length} posts no arquivo →</a></p>
+  )}
+</Base>

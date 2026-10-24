@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import ListaPosts from '../components/ListaPosts.astro';
+import { postsPublicados } from '../lib/util';
+
+const posts = await postsPublicados();
+---
+<Base titulo="Arquivo">
+  <h1>Arquivo</h1>
+  <p class="meta">{posts.length} posts</p>
+  <ListaPosts posts={posts} agruparPorDia />
+</Base>
