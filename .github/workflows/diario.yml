@@ -1,7 +1,9 @@
 name: Rotina diária
 
 on:
-  # Agendamento (07:37 America/Sao_Paulo) é ativado após a primeira execução manual aprovada.
+  schedule:
+    - cron: '37 7 * * *'
+      timezone: 'America/Sao_Paulo'
   workflow_dispatch:
     inputs:
       simular_falha:
