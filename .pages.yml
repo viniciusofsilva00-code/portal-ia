@@ -3,6 +3,16 @@ media:
   input: public/imagens
   output: /portal-ia/imagens
 
+settings:
+  commit:
+    # Identifica quem salvou: usado pelas regras de permissão (config/permissoes.yml)
+    identity: user
+    templates:
+      create: "Create {path} (via Pages CMS) [por: {userEmail}]"
+      update: "Update {path} (via Pages CMS) [por: {userEmail}]"
+      delete: "Delete {path} (via Pages CMS) [por: {userEmail}]"
+      rename: "Rename {oldPath} to {newPath} (via Pages CMS) [por: {userEmail}]"
+
 content:
   - name: posts
     label: Posts
@@ -75,3 +85,33 @@ content:
       - name: body
         label: Texto
         type: rich-text
+
+  - name: permissoes
+    label: Permissões (só admin)
+    type: file
+    path: config/permissoes.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: admins
+        label: Administradores (usuários do GitHub, acesso total)
+        type: string
+        list: true
+      - name: colaboradores
+        label: Colaboradores
+        description: "Editor: publica e apaga. Autor: só rascunhos, não apaga nem altera publicados. Revisor: só visualiza. Convide o mesmo e-mail em Collaborators."
+        type: object
+        list: true
+        fields:
+          - name: email
+            label: E-mail
+            type: string
+            required: true
+          - name: nivel
+            label: Nível
+            type: select
+            required: true
+            default: autor
+            options:
+              values: [editor, autor, revisor]

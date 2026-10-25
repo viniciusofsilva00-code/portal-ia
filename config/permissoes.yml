@@ -1,0 +1,19 @@
+# Níveis de permissão do painel (Pages CMS).
+# Só administradores podem alterar este arquivo; qualquer outra alteração é desfeita no deploy.
+#
+# Níveis:
+#   editor  — cria, edita, publica, despublica e apaga posts e imagens
+#   autor   — cria e edita apenas rascunhos; não publica, não apaga, não altera posts publicados
+#   revisor — só visualiza; qualquer alteração salva é desfeita
+#
+# Quem não estiver na lista é tratado como revisor.
+# Depois de incluir alguém aqui, convide o mesmo e-mail em Pages CMS → Collaborators.
+
+admins:
+  # Usuários do GitHub com acesso total (inclusive a este arquivo e às configurações)
+  - viniciusofsilva00-code
+
+colaboradores: []
+  # Exemplo:
+  # - email: pessoa@exemplo.com
+  #   nivel: autor

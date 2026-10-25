@@ -9,6 +9,10 @@ on:
     paths:
       - 'src/**'
       - 'public/**'
+      - 'config/**'
+      - 'scripts/**'
+      - '.pages.yml'
+      - '.github/**'
       - 'astro.config.mjs'
       - 'package.json'
       - 'package-lock.json'
@@ -40,16 +44,19 @@ jobs:
           node-version: 24
           cache: npm
 
-      - name: Marcar posts editados fora da rotina
+      - name: Aplicar permissões e marcar posts editados
         if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
         run: |
-          arquivos=$(git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- src/content/posts)
-          [ -z "$arquivos" ] && { echo "Nenhum post alterado."; exit 0; }
-          node scripts/marcar-editados.mjs $arquivos
-          if ! git diff --quiet; then
+          npm ci --ignore-scripts --no-audit --no-fund >/dev/null
+          node scripts/permissoes.mjs "${{ github.event.before }}" "${{ github.sha }}" "${{ github.actor }}"
+          # Posts que continuam diferentes do estado anterior ao push são marcados como editados manualmente
+          arquivos=$(git diff --name-only --diff-filter=AM "${{ github.event.before }}" -- src/content/posts)
+          if [ -n "$arquivos" ]; then node scripts/marcar-editados.mjs $arquivos; fi
+          git add -A src public config .pages.yml .github scripts 2>/dev/null || true
+          if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -am "painel: marca posts editados manualmente"
+            git commit -m "painel: aplica permissões e marca posts editados"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

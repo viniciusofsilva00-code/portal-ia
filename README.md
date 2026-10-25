@@ -43,6 +43,37 @@ Posts da rotina guardam também a hora.
 Cada salvamento vira um commit e dispara o workflow **Deploy (painel e pushes)**. O site atualiza
 em 1 a 2 minutos.
 
+## Colaboradores e níveis de permissão
+
+Ninguém entra no painel só por ter o link. O acesso exige:
+
+- **Admin:** login no Pages CMS com uma conta GitHub listada em `admins` (hoje, só `viniciusofsilva00-code`). Tem acesso total.
+- **Colaborador:** e-mail convidado em *Pages CMS → Collaborators*. O login é feito por um link enviado a esse e-mail, e a pessoa não precisa de conta no GitHub.
+
+O nível de cada colaborador fica em `config/permissoes.yml`, editável no painel em
+**Permissões (só admin)**:
+
+| Nível | Pode | Não pode |
+|---|---|---|
+| `editor` | Criar, editar, publicar, despublicar e apagar posts e imagens | Mexer em configurações e permissões |
+| `autor` | Criar e editar **rascunhos** | Publicar, apagar ou alterar posts já publicados |
+| `revisor` | Ver o conteúdo | Salvar qualquer alteração |
+
+E-mail convidado que não esteja na lista é tratado como `revisor`.
+
+**Para adicionar alguém:**
+1. Em **Permissões (só admin)**, inclua o e-mail e o nível e salve.
+2. Em **Collaborators**, convide o mesmo e-mail.
+
+**Como funciona:** o painel registra em cada commit quem salvou (`[por: email]`). O workflow
+**Deploy (painel e pushes)** confere o nível antes de publicar e desfaz o que estiver fora da
+permissão: post de autor vira rascunho, exclusão volta e alteração de revisor é revertida.
+O resumo da execução no Actions mostra o nível aplicado e o que foi ajustado. Vale a configuração
+de **antes** do salvamento, então ninguém consegue se promover no mesmo commit.
+
+**Segurança da sua conta:** a conta GitHub de admin é a chave de tudo. Mantenha a verificação
+em duas etapas ativa em https://github.com/settings/security.
+
 ## Editar as fontes
 
 Edite `config/fontes.yml` (pelo GitHub ou localmente). Cada fonte tem:
