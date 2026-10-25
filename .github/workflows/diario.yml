@@ -175,7 +175,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           from: Portal IA <${{ secrets.MAIL_USERNAME }}>
-          to: vinicius@anchorbrasil.com.br
+          to: vinicius@anchorbrasil.com.br,viniciusofsilva00@gmail.com
           subject: ${{ steps.email.outputs.assunto }}
           html_body: file://tmp/email.html
 
