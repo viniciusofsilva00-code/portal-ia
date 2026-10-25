@@ -57,6 +57,7 @@ header.site .wrap { display: flex; flex-wrap: wrap; align-items: center; justify
 @keyframes piscar { 50% { opacity: 0; } }
 header.site nav { display: flex; flex-wrap: wrap; gap: .25rem; font: 500 .78rem/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
 header.site nav a { padding: .55rem .7rem; border-radius: 6px; text-decoration: none; color: var(--muted); }
+header.site nav a.cmd { text-transform: none; letter-spacing: 0; font-size: .85rem; font-weight: 600; color: var(--fg); }
 header.site nav a:hover, header.site nav a[aria-current='page'] { color: var(--fg); background: var(--neon-soft); }
 
 main { flex: 1; padding: 2.5rem 0 4rem; }
