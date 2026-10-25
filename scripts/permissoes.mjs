@@ -48,7 +48,10 @@ function forcarRascunho(texto) {
 
 // A configuração vigente é a de ANTES do push: ninguém se promove no mesmo commit.
 const config = YAML.parse(conteudoEm(antes, 'config/permissoes.yml') || '') || {};
-const admins = new Set((config.admins || []).map((s) => String(s).toLowerCase()));
+// O dono do repositório é sempre admin, mesmo sem o arquivo de permissões.
+const admins = new Set(
+  [...(config.admins || []), process.env.GITHUB_REPOSITORY_OWNER].filter(Boolean).map((s) => String(s).toLowerCase()),
+);
 const niveis = new Map(
   (config.colaboradores || [])
     .filter((c) => c?.email)
