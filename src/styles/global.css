@@ -51,10 +51,9 @@ header.site::after {
   opacity: .6;
 }
 header.site .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; min-height: 64px; padding-top: .5rem; padding-bottom: .5rem; }
-.marca { display: inline-flex; align-items: center; gap: .55rem; font: 700 1.05rem/1 var(--mono); letter-spacing: -.02em; color: var(--fg); text-decoration: none; }
-.marca:hover { color: var(--fg); }
-.marca .chip { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: var(--fg); color: var(--neon); font-size: .8rem; box-shadow: 0 0 18px -4px var(--neon); }
-.marca .cursor { display: inline-block; width: .55em; height: 1.05em; background: var(--neon); margin-left: 2px; vertical-align: -0.15em; animation: piscar 1.1s steps(1) infinite; }
+.marca { display: inline-flex; align-items: center; color: var(--fg); text-decoration: none; }
+.marca .logo { display: block; height: 30px; width: auto; }
+.marca .logo .cursor { animation: piscar 1.1s steps(1) infinite; }
 @keyframes piscar { 50% { opacity: 0; } }
 header.site nav { display: flex; flex-wrap: wrap; gap: .25rem; font: 500 .78rem/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
 header.site nav a { padding: .55rem .7rem; border-radius: 6px; text-decoration: none; color: var(--muted); }
@@ -175,7 +174,7 @@ h2 { font-size: 1.45rem; line-height: 1.25; margin: 2.25rem 0 .6rem; font-weight
   header.site nav a { padding: .5rem .5rem; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .marca .cursor { animation: none; }
+  .marca .logo .cursor { animation: none; }
   .card, .botao { transition: none; }
   .card:hover { transform: none; }
 }

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Logo from '../components/Logo.astro';
 import { SITE_TITULO, SITE_DESCRICAO, url } from '../lib/util';
 
 interface Props {
@@ -43,8 +44,7 @@ const nav = [
     <header class="site">
       <div class="wrap">
         <a class="marca" href={url()} aria-label={`${SITE_TITULO} — início`}>
-          <span class="chip" aria-hidden="true">IA</span>
-          <span>portal_ia<span class="cursor" aria-hidden="true"></span></span>
+          <Logo />
         </a>
         <nav aria-label="Principal">
           {nav.map((n) => (
