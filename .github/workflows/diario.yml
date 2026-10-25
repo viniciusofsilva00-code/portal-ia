@@ -1,8 +1,14 @@
 name: Rotina diária
 
 on:
+  # 07:37 é o horário principal. O GitHub às vezes atrasa ou descarta execuções agendadas;
+  # 08:17 e 09:07 são tentativas de reserva e só rodam se a do dia ainda não tiver acontecido.
   schedule:
     - cron: '37 7 * * *'
+      timezone: 'America/Sao_Paulo'
+    - cron: '17 8 * * *'
+      timezone: 'America/Sao_Paulo'
+    - cron: '7 9 * * *'
       timezone: 'America/Sao_Paulo'
   workflow_dispatch:
     inputs:
@@ -20,9 +26,32 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 
 jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    outputs:
+      rodar: ${{ steps.v.outputs.rodar }}
+    steps:
+      - name: Já rodou hoje?
+        id: v
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "rodar=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          hoje=$(TZ=America/Sao_Paulo date +%F)
+          # Execuções agendadas de hoje (horário de Brasília) que já terminaram com sucesso ou ainda estão rodando
+          n=$(gh api "repos/${{ github.repository }}/actions/workflows/diario.yml/runs?event=schedule&per_page=20" \
+            --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }})
+                   | select((.created_at | fromdateiso8601 - 10800 | strftime(\"%Y-%m-%d\")) == \"$hoje\")
+                   | select(.conclusion == \"success\" or .status != \"completed\")] | length")
+          echo "Execuções agendadas de hoje já feitas ou em andamento: $n"
+          if [ "$n" = "0" ]; then echo "rodar=true" >> "$GITHUB_OUTPUT"; else echo "rodar=false" >> "$GITHUB_OUTPUT"; echo "Rotina de hoje já rodou; esta tentativa de reserva será ignorada."; fi
+
   diario:
+    needs: verificar
+    if: needs.verificar.outputs.rodar == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     environment:

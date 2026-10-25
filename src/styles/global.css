@@ -64,6 +64,8 @@ main { flex: 1; padding: 2.5rem 0 4rem; }
 /* Rodapé */
 footer.site { border-top: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: .85rem; padding: 1.75rem 0 2.25rem; }
 footer.site .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
+footer.site .endosso { flex-basis: 100%; display: inline-flex; }
+footer.site .endosso img { display: block; height: 22px; width: auto; }
 footer.site .mono { font-family: var(--mono); font-size: .75rem; }
 footer.site a { color: var(--fg); }
 

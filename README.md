@@ -154,8 +154,10 @@ schedule:
     timezone: 'America/Sao_Paulo'
 ```
 
-O GitHub pode atrasar execuções agendadas sob carga, principalmente no início de cada hora. Por
-isso o minuto 37. Somando atraso e duração (10 a 25 minutos), o e-mail chega por volta das 8h.
+O GitHub pode atrasar ou até descartar execuções agendadas sob carga, principalmente no início de
+cada hora. Por isso o minuto 37 e duas tentativas de reserva (08:17 e 09:07): o job **verificar**
+só deixa a reserva rodar se a rotina do dia ainda não tiver dado certo. Para mudar o horário,
+ajuste as três linhas `cron`. Somando atraso e duração (10 a 25 minutos), o e-mail chega por volta das 8h.
 Evite `:00`.
 
 ## Credenciais (secrets)
