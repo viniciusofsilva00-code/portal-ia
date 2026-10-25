@@ -134,6 +134,25 @@
       "tema": "Paper mede traços psicolinguísticos que tornam texto de IA mais difícil de ler e liga isso ao treino para código e raciocínio",
       "data": "2026-10-25",
       "post": "2026-10-25-paper-texto-de-ia-dificil-de-ler"
+    },
+    {
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "urls": [
+        "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+        "https://news.ycombinator.com/item?id=50226419"
+      ],
+      "tema": "Apricitas Economics analisa perda de mais de 200 mil empregos em mídia e artes nos EUA e o peso da IA",
+      "data": "2026-10-25",
+      "post": "2026-10-25-eua-perdem-200-mil-empregos-criativos-quanto-e-ia"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/10/25/ciencia-e-espaco/nasa-quer-levar-supercomputador-com-ia-para-testar-navegacao-autonoma-na-lua/",
+      "urls": [
+        "https://olhardigital.com.br/2026/10/25/ciencia-e-espaco/nasa-quer-levar-supercomputador-com-ia-para-testar-navegacao-autonoma-na-lua/"
+      ],
+      "tema": "Spaceborne Computer-4 da HPE vai no rover FLIP (Griffin-1) testar IA para navegação lunar sem GPS",
+      "data": "2026-10-25",
+      "post": "2026-10-25-hpe-spaceborne-computer-4-ia-na-lua"
     }
   ]
 }
