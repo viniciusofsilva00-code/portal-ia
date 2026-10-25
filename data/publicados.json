@@ -95,6 +95,45 @@
       "tema": "Google permite exportar apps interativos criados no Gemini (Canvas) direto para o Google Sites",
       "data": "2026-10-24",
       "post": "2026-10-24-gemini-exporta-apps-para-google-sites"
+    },
+    {
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "urls": [
+        "https://www.kimi.ai/blog/kimi-k3-1-pro",
+        "https://olhardigital.com.br/2026/10/25/inteligencia-artificial/moonshot-limita-capacidades-de-seu-modelo-de-ia-mais-avancado-para-evitar-ataques-hackers/"
+      ],
+      "tema": "Moonshot lança Kimi K3.1 Pro open-weight e remove dados de ciberataque do treino, caindo de 90,5% para 81,0% no xdev-bench-hard",
+      "data": "2026-10-25",
+      "post": "2026-10-25-moonshot-kimi-k3-1-pro-corta-capacidade-ciber"
+    },
+    {
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "urls": [
+        "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+      ],
+      "tema": "Cerebras explica como serve o Kimi K3 (3T parâmetros) em 59 wafers WSE-3T com pipeline entre chips",
+      "data": "2026-10-25",
+      "post": "2026-10-25-cerebras-explica-deploy-de-modelos-de-trilhoes"
+    },
+    {
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "urls": [
+        "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+        "https://news.ycombinator.com/item?id=50224463"
+      ],
+      "tema": "Torsten Slok (Apollo) não vê ganho de IA em receita, margem ou produtividade fora das Mag 7",
+      "data": "2026-10-25",
+      "post": "2026-10-25-apollo-sem-retorno-de-ia-fora-da-tecnologia"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.29162",
+      "urls": [
+        "https://arxiv.org/abs/2610.29162",
+        "https://news.ycombinator.com/item?id=50223647"
+      ],
+      "tema": "Paper mede traços psicolinguísticos que tornam texto de IA mais difícil de ler e liga isso ao treino para código e raciocínio",
+      "data": "2026-10-25",
+      "post": "2026-10-25-paper-texto-de-ia-dificil-de-ler"
     }
   ]
 }
