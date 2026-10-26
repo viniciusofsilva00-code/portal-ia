@@ -153,6 +153,50 @@
       "tema": "Spaceborne Computer-4 da HPE vai no rover FLIP (Griffin-1) testar IA para navegação lunar sem GPS",
       "data": "2026-10-25",
       "post": "2026-10-25-hpe-spaceborne-computer-4-ia-na-lua"
+    },
+    {
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "urls": [
+        "https://www.anthropic.com/news/s1-sec",
+        "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+        "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+        "https://canaltech.com.br/mercado/dona-do-claude-anuncia-entrada-na-bolsa-e-escolhe-nome-para-suas-acoes/",
+        "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+        "https://olhardigital.com.br/2026/10/26/pro/anthropic-mira-ipo-historico-mas-registra-prejuizo-bilionario/",
+        "https://olhardigital.com.br/2026/10/25/pro/anthropic-prepara-ipo-bilionario-enquanto-empresas-de-ia-adiam-estreia-na-bolsa/"
+      ],
+      "tema": "Anthropic torna público o S-1 para IPO na Nasdaq (ticker ANT), com receita de US$ 16,3 bi no 1º semestre e fundadores com 50,1% dos votos",
+      "data": "2026-10-26",
+      "post": "2026-10-26-anthropic-protocola-s1-ipo-nasdaq"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "urls": [
+        "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+        "https://olhardigital.com.br/2026/10/25/pro/spacex-levanta-r-216-bilhoes-para-comprar-chips-de-ia-da-nvidia/"
+      ],
+      "tema": "SpaceX fecha financiamento de US$ 40 bi com a Apollo, em leasing, para GPUs Nvidia Vera Rubin",
+      "data": "2026-10-26",
+      "post": "2026-10-26-spacex-financiamento-40-bi-gpus-apollo"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/elvis-vs-ia-donos-dos-direitos-do-rei-do-rock-processam-dona-do-claude-entenda-motivo/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/elvis-vs-ia-donos-dos-direitos-do-rei-do-rock-processam-dona-do-claude-entenda-motivo/",
+        "https://olhardigital.com.br/2026/10/26/inteligencia-artificial/elvis-vs-ia-entenda-o-processo-milionario-contra-a-anthropic/"
+      ],
+      "tema": "Detentores de direitos de 274 músicas de Elvis Presley processam a Anthropic por uso de letras no treino e na saída do Claude",
+      "data": "2026-10-26",
+      "post": "2026-10-26-direitos-de-elvis-processam-anthropic"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/10/26/pro/meta-quer-captar-r-475-bilhoes-para-ampliar-sua-estrutura-de-ia/",
+      "urls": [
+        "https://olhardigital.com.br/2026/10/26/pro/meta-quer-captar-r-475-bilhoes-para-ampliar-sua-estrutura-de-ia/"
+      ],
+      "tema": "Meta planeja captar até US$ 95 bi em ações para infraestrutura de IA após fluxo de caixa livre negativo no 3º trimestre",
+      "data": "2026-10-26",
+      "post": "2026-10-26-meta-quer-captar-95-bilhoes-em-acoes-para-ia"
     }
   ]
 }
