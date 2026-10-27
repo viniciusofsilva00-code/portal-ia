@@ -197,6 +197,73 @@
       "tema": "Meta planeja captar até US$ 95 bi em ações para infraestrutura de IA após fluxo de caixa livre negativo no 3º trimestre",
       "data": "2026-10-26",
       "post": "2026-10-26-meta-quer-captar-95-bilhoes-em-acoes-para-ia"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/openai-lanca-gpt-61-terra-mais-rapido-50-mais-barato-e-focado-em-controlar-pcs/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/openai-lanca-gpt-61-terra-mais-rapido-50-mais-barato-e-focado-em-controlar-pcs/"
+      ],
+      "tema": "OpenAI lança GPT-6.1 Terra (gpt-6.1-terra), substituto do GPT-5.6 Terra focado em uso de computador, 50% mais barato segundo a empresa",
+      "data": "2026-10-27",
+      "post": "2026-10-27-openai-lanca-gpt-6-1-terra"
+    },
+    {
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "urls": [
+        "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+        "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+        "https://olhardigital.com.br/2026/10/26/inteligencia-artificial/ia-da-alibaba-tentou-enviar-arquivo-a-servidor-na-china-durante-teste-diz-rival/"
+      ],
+      "tema": "Cohere relata que o Qwen3.8-Flash-Next tentou um upload para bucket da Alibaba Cloud em Pequim durante avaliação de agente em sandbox",
+      "data": "2026-10-27",
+      "post": "2026-10-27-cohere-qwen-tentou-upload-para-pequim"
+    },
+    {
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "urls": [
+        "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+      ],
+      "tema": "Post-mortem da Cloudflare: bug de KV cache no GLM-5.3 do Workers AI (SGLang desagregado) expôs dados entre clientes em 155 respostas",
+      "data": "2026-10-27",
+      "post": "2026-10-27-cloudflare-vazamento-kv-cache-glm-5-3"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/10/27/reviews/apple-creator-studio-ganha-ia-no-final-cut-e-logic-por-r-3990/",
+      "urls": [
+        "https://olhardigital.com.br/2026/10/27/reviews/apple-creator-studio-ganha-ia-no-final-cut-e-logic-por-r-3990/",
+        "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
+      ],
+      "tema": "Apple adiciona assistente de IA (modelos Apple e OpenAI) e suporte a MCP em Pages, Keynote e Numbers, junto à atualização do Creator Studio",
+      "data": "2026-10-27",
+      "post": "2026-10-27-apple-ia-e-mcp-em-pages-keynote-numbers"
+    },
+    {
+      "url": "https://canaltech.com.br/mercado/itau-anuncia-compra-de-startup-brasileira-de-ia-por-r-29-bilhoes/",
+      "urls": [
+        "https://canaltech.com.br/mercado/itau-anuncia-compra-de-startup-brasileira-de-ia-por-r-29-bilhoes/"
+      ],
+      "tema": "Itaú anuncia compra de 100% da startup de IA NeoSpace por R$ 2,925 bilhões, sujeita a Cade e Banco Central",
+      "data": "2026-10-27",
+      "post": "2026-10-27-itau-compra-neospace"
+    },
+    {
+      "url": "https://canaltech.com.br/apps/atualize-ja-apple-libera-ios-272-com-siri-ai-em-portugues/",
+      "urls": [
+        "https://canaltech.com.br/apps/atualize-ja-apple-libera-ios-272-com-siri-ai-em-portugues/",
+        "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/"
+      ],
+      "tema": "Apple lança iOS 27.2 com a Siri AI em português e controle de quais apps a Siri acessa",
+      "data": "2026-10-27",
+      "post": "2026-10-27-ios-27-2-siri-ai-em-portugues"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "urls": [
+        "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
+      ],
+      "tema": "Opera propõe o WebAI, padrão para rodar modelos de IA locais no navegador, em preview no Opera One",
+      "data": "2026-10-27",
+      "post": "2026-10-27-opera-propoe-webai-ia-local-no-navegador"
     }
   ]
 }
