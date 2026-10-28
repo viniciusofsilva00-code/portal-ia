@@ -264,6 +264,73 @@
       "tema": "Opera propõe o WebAI, padrão para rodar modelos de IA locais no navegador, em preview no Opera One",
       "data": "2026-10-27",
       "post": "2026-10-27-opera-propoe-webai-ia-local-no-navegador"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/ia-da-openai-faz-3-grandes-descobertas-cientificas-e-muda-relacao-com-academicos/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/ia-da-openai-faz-3-grandes-descobertas-cientificas-e-muda-relacao-com-academicos/",
+        "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+        "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+        "https://olhardigital.com.br/2026/10/27/colunistas/fala-ai-openai-anuncia-tres-descobertas-cientificas-feitas-com-ia/"
+      ],
+      "tema": "OpenAI anuncia três resultados científicos (Sogge, refutação da ETH via 3-SAT, QFT 4D) com grupos externos de shepherds; Anthropic também publica refutação da ETH",
+      "data": "2026-10-28",
+      "post": "2026-10-28-openai-tres-resultados-cientificos-eth"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/10/28/inteligencia-artificial/openai-quer-comprar-chips-do-google-em-uniao-inedita-de-rivais/",
+      "urls": [
+        "https://olhardigital.com.br/2026/10/28/inteligencia-artificial/openai-quer-comprar-chips-do-google-em-uniao-inedita-de-rivais/"
+      ],
+      "tema": "OpenAI planeja comprar TPUs do Google, segundo o The Information, sem confirmação das empresas",
+      "data": "2026-10-28",
+      "post": "2026-10-28-openai-negocia-compra-de-tpus-do-google"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "urls": [
+        "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+        "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+      ],
+      "tema": "Nvidia lança Nemotron 3.5 Transcribe (30B-A4B, open-weight, 40 idiomas, só áudio gravado) e o dataset Granary v2",
+      "data": "2026-10-28",
+      "post": "2026-10-28-nvidia-nemotron-3-5-transcribe"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/golpe-do-falso-claude-usa-site-oficial-da-anthropic-para-roubar-senhas-e-criptomoedas/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/golpe-do-falso-claude-usa-site-oficial-da-anthropic-para-roubar-senhas-e-criptomoedas/"
+      ],
+      "tema": "Gen Digital relata golpe com anúncios do Google e Artefatos/chats compartilhados no claude.ai que instala AMOS (macOS) e RAT via ClickFix (Windows)",
+      "data": "2026-10-28",
+      "post": "2026-10-28-golpe-falso-claude-usa-artefatos-no-claude-ai"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/10/27/pro/bancos-e-blackstone-vao-financiar-r-340-bilhoes-em-chips-de-ia-para-a-anthropic/",
+      "urls": [
+        "https://olhardigital.com.br/2026/10/27/pro/bancos-e-blackstone-vao-financiar-r-340-bilhoes-em-chips-de-ia-para-a-anthropic/"
+      ],
+      "tema": "Financiamento de US$ 63 bi via SPV (BofA, Citi, Morgan Stanley e Blackstone) para chips da Broadcom alugados à Anthropic",
+      "data": "2026-10-28",
+      "post": "2026-10-28-anthropic-financiamento-63-bi-chips-broadcom"
+    },
+    {
+      "url": "https://www.akitaonrails.com/2026/10/28/llm-benchmark-v4-gemini-4-argon-gpt-sol-6-1-terra-kimi-k3-1-pro-claude-sonnet-5-5/",
+      "urls": [
+        "https://www.akitaonrails.com/2026/10/28/llm-benchmark-v4-gemini-4-argon-gpt-sol-6-1-terra-kimi-k3-1-pro-claude-sonnet-5-5/"
+      ],
+      "tema": "LLM coding benchmark v4 do Akita com Gemini 4 Argon, GPT-6.1 Sol/Terra, Muse Wonder, Kimi K3.1 Pro e Claude Sonnet 5.5",
+      "data": "2026-10-28",
+      "post": "2026-10-28-akita-llm-benchmark-v4"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/claude-trava-tarefas-de-engenharia-reversa-e-revolta-quem-modifica-jogos-e-tvs/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/claude-trava-tarefas-de-engenharia-reversa-e-revolta-quem-modifica-jogos-e-tvs/"
+      ],
+      "tema": "Filtros de cibersegurança do Claude Opus 5.5 interrompem tarefas de engenharia reversa de smart TVs e jogos",
+      "data": "2026-10-28",
+      "post": "2026-10-28-claude-filtros-ciber-travam-engenharia-reversa"
     }
   ]
 }
