@@ -331,6 +331,75 @@
       "tema": "Filtros de cibersegurança do Claude Opus 5.5 interrompem tarefas de engenharia reversa de smart TVs e jogos",
       "data": "2026-10-28",
       "post": "2026-10-28-claude-filtros-ciber-travam-engenharia-reversa"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "https://tecnoblog.net/noticias/google-lanca-gemini-4-carbon-com-avancos-em-ciberseguranca-mas-voce-ainda-nao-pode-usa-lo/",
+        "https://canaltech.com.br/inteligencia-artificial/google-lanca-gemini-4-carbon-com-foco-em-ciberseguranca-e-tarefas-que-duram-dias/",
+        "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+        "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
+      ],
+      "tema": "Google anuncia Gemini 4 Carbon (59 no AA Index v5.0, foco em ciber), com acesso inicial restrito a defensores via Fairwind Program",
+      "data": "2026-10-29",
+      "post": "2026-10-29-google-lanca-gemini-4-carbon"
+    },
+    {
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "urls": [
+        "https://huggingface.co/blog/mistral-large4"
+      ],
+      "tema": "Mistral lança Mistral Large 4 open-weight (MoE ~1T, 1M de contexto, licença com restrição a model-as-a-service)",
+      "data": "2026-10-29",
+      "post": "2026-10-29-mistral-large-4-pesos-abertos"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+        "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+        "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/"
+      ],
+      "tema": "Balanço da Microsoft (1º tri fiscal 2027): US$ 10 bi de receita da OpenAI, Azure com US$ 33,2 bi e capex recorde de US$ 45,2 bi",
+      "data": "2026-10-29",
+      "post": "2026-10-29-microsoft-10-bi-de-receita-da-openai-azure-33-bi"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+      ],
+      "tema": "Alphabet no 3º tri: Busca cresce 12% e Google expande anúncios do AI Mode e AI Overviews para fora dos EUA",
+      "data": "2026-10-29",
+      "post": "2026-10-29-google-leva-anuncios-do-ai-mode-para-fora-dos-eua"
+    },
+    {
+      "url": "https://canaltech.com.br/apps/gemini-e-busca-do-google-agora-rodam-apps-de-terceiros-sem-voce-sair-da-tela/",
+      "urls": [
+        "https://canaltech.com.br/apps/gemini-e-busca-do-google-agora-rodam-apps-de-terceiros-sem-voce-sair-da-tela/"
+      ],
+      "tema": "Google lança Connected Apps Platform, com MCP na nuvem e Android MCP, para apps de terceiros no Gemini e na Busca",
+      "data": "2026-10-29",
+      "post": "2026-10-29-google-connected-apps-platform-mcp"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+      ],
+      "tema": "Anthropic lança relatórios corporativos de uso e custo do Claude e orçamentos agrupados de tokens",
+      "data": "2026-10-29",
+      "post": "2026-10-29-anthropic-relatorios-de-gasto-para-empresas"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/"
+      ],
+      "tema": "Deepgram compra a Daily, criadora do framework de agentes de voz Pipecat, e lança o protocolo Real-Time Context Standard",
+      "data": "2026-10-29",
+      "post": "2026-10-29-deepgram-compra-daily-pipecat"
     }
   ]
 }
