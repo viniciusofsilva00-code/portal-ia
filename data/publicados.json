@@ -400,6 +400,76 @@
       "tema": "Deepgram compra a Daily, criadora do framework de agentes de voz Pipecat, e lança o protocolo Real-Time Context Standard",
       "data": "2026-10-29",
       "post": "2026-10-29-deepgram-compra-daily-pipecat"
+    },
+    {
+      "url": "https://jules.google/docs/changelog/2026-10-29",
+      "urls": [
+        "https://jules.google/docs/changelog/2026-10-29",
+        "https://tecnoblog.net/noticias/google-vai-encerrar-agente-de-ia-que-programa-sozinho/"
+      ],
+      "tema": "Google encerra o agente de código Jules: sessões até 11/11/2026, somente leitura até 31/12/2026; aprendizados vão para o Antigravity",
+      "data": "2026-10-30",
+      "post": "2026-10-30-google-encerra-jules"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+        "https://tecnoblog.net/noticias/gemini-agora-permite-editar-pdfs-e-documentos-em-sua-propria-interface/",
+        "https://canaltech.com.br/inteligencia-artificial/sem-sair-do-chat-gemini-ganha-edicao-interativa-de-documentos-no-celular-e-na-web/",
+        "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "https://olhardigital.com.br/2026/10/29/inteligencia-artificial/gemini-agora-permite-editar-pdfs-documentos-e-planilhas-dentro-do-chat/"
+      ],
+      "tema": "Gemini passa a editar PDFs, Docs, Sheets, slides, Markdown, TXT e código dentro do chat (no celular, só PDF)",
+      "data": "2026-10-30",
+      "post": "2026-10-30-gemini-edita-arquivos-no-chat"
+    },
+    {
+      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+      "urls": [
+        "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+        "https://canaltech.com.br/seguranca/falha-no-telegram-para-android-permitia-invadir-celular-ao-atender-ligacao/"
+      ],
+      "tema": "NebuSec divulga falha no tgcalls do Telegram para Android (8.6.2 a 12.10.3), achada com ferramenta baseada no GPT-5.4, corrigida na 12.10.4",
+      "data": "2026-10-30",
+      "post": "2026-10-30-falha-telegram-android-achada-com-gpt-5-4"
+    },
+    {
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai",
+      "urls": [
+        "https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai",
+        "https://tecnoblog.net/noticias/usar-mais-ia-nao-significa-trabalhar-melhor-diz-amazon/"
+      ],
+      "tema": "Amazon revisa diretriz de engenheiros: metas de tokens, adoção de IA e volume de código são \"deeply flawed\"; foco em resultado de longo prazo",
+      "data": "2026-10-30",
+      "post": "2026-10-30-amazon-diz-que-metrica-de-tokens-e-falha"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
+      ],
+      "tema": "Balanço da Amazon no 3º tri de 2026: AWS cresce 39%, run rate de US$ 184 bi, capex de ~US$ 220 bi em 2026 e mais em 2027; meta de US$ 1 tri",
+      "data": "2026-10-30",
+      "post": "2026-10-30-aws-cresce-39-e-capex-de-220-bi"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+      ],
+      "tema": "Thrive Holdings, com a OpenAI como investidora e parceira, compra a ADT por US$ 10/ação (US$ 15,3 bi de valor de empresa)",
+      "data": "2026-10-30",
+      "post": "2026-10-30-thrive-holdings-compra-adt"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "urls": [
+        "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
+      ],
+      "tema": "DoorDash diz ter recebido só algumas centenas de pedidos de agentes de IA de terceiros",
+      "data": "2026-10-30",
+      "post": "2026-10-30-doordash-poucos-pedidos-de-agentes"
     }
   ]
 }
