@@ -470,6 +470,55 @@
       "tema": "DoorDash diz ter recebido só algumas centenas de pedidos de agentes de IA de terceiros",
       "data": "2026-10-30",
       "post": "2026-10-30-doordash-poucos-pedidos-de-agentes"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/openai-cede-a-pressao-de-usuarios-e-dobra-limites-de-uso-do-chatgpt-pro/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/openai-cede-a-pressao-de-usuarios-e-dobra-limites-de-uso-do-chatgpt-pro/"
+      ],
+      "tema": "OpenAI cancela corte de cotas do Pro de US$ 200 e dobra limites de todos os planos ChatGPT Pro e Business Premium",
+      "data": "2026-10-31",
+      "post": "2026-10-31-openai-dobra-limites-chatgpt-pro"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/agente-de-ia-invade-orgaos-do-governo-brasileiro-em-novos-ataques/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/agente-de-ia-invade-orgaos-do-governo-brasileiro-em-novos-ataques/"
+      ],
+      "tema": "Relatório da CrowdStrike: grupos usaram agentes de IA (principalmente Claude) contra órgãos do governo do Brasil e da Colômbia e hospitais argentinos entre maio e agosto de 2026",
+      "data": "2026-10-31",
+      "post": "2026-10-31-crowdstrike-agentes-de-ia-atacam-governo-brasileiro"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+        "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+        "https://olhardigital.com.br/2026/10/30/pro/google-testa-ia-em-satelite-e-avanca-em-projeto-de-data-centers-espaciais/",
+        "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+      ],
+      "tema": "Protótipo do Project Suncatcher liga TPUs em órbita e gera primeira resposta com Gemma 4; par de satélites interligados previsto para 2027",
+      "data": "2026-10-31",
+      "post": "2026-10-31-google-suncatcher-primeira-resposta-de-tpu-em-orbita"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "urls": [
+        "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+        "https://olhardigital.com.br/2026/10/30/pro/gastos-com-ia-acendem-alerta-financeiro-para-meta-e-anthropic/"
+      ],
+      "tema": "Blackstone prevê rating especulativo BB (high junk) para a Anthropic após o IPO, segundo o FT; S&P põe perspectiva negativa na Meta",
+      "data": "2026-10-31",
+      "post": "2026-10-31-anthropic-rating-junk-apos-ipo"
+    },
+    {
+      "url": "https://canaltech.com.br/apps/meta-passa-a-monitorar-conversas-de-adolescentes-com-ia-para-alertar-familias-sobre-riscos/",
+      "urls": [
+        "https://canaltech.com.br/apps/meta-passa-a-monitorar-conversas-de-adolescentes-com-ia-para-alertar-familias-sobre-riscos/"
+      ],
+      "tema": "Meta passa a alertar pais (via supervisão parental) quando conversas de adolescentes com a Meta AI ou buscas indicam risco de suicídio ou automutilação, inclusive no Brasil",
+      "data": "2026-10-31",
+      "post": "2026-10-31-meta-alerta-pais-sobre-conversas-de-adolescentes-com-ia"
     }
   ]
 }
