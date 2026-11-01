@@ -519,6 +519,34 @@
       "tema": "Meta passa a alertar pais (via supervisão parental) quando conversas de adolescentes com a Meta AI ou buscas indicam risco de suicídio ou automutilação, inclusive no Brasil",
       "data": "2026-10-31",
       "post": "2026-10-31-meta-alerta-pais-sobre-conversas-de-adolescentes-com-ia"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "urls": [
+        "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+      ],
+      "tema": "Juíza Debra M. Brown nega pedido da xAI para arquivar ação da NAACP (Clean Air Act) sobre ao menos 35 turbinas a gás sem licença no data center Colossus",
+      "data": "2026-11-01",
+      "post": "2026-11-01-juiza-mantem-acao-naacp-contra-xai"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "urls": [
+        "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+        "https://news.ycombinator.com/item?id=50323088"
+      ],
+      "tema": "Benchmark de Nolan Lawson mede custo, tempo, tokens e Lighthouse de um mesmo app feito pelo Claude Opus 5.5 em 12 frameworks JavaScript",
+      "data": "2026-11-01",
+      "post": "2026-11-01-custo-de-ia-por-framework-javascript"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/como-usar-o-chatgpt-direto-na-barra-lateral-do-chrome-e-edge/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/como-usar-o-chatgpt-direto-na-barra-lateral-do-chrome-e-edge/"
+      ],
+      "tema": "Extensão do ChatGPT para navegadores Chromium ganha barra lateral que lê abas abertas e integração com o ChatGPT Work para executar tarefas, para todos os planos",
+      "data": "2026-11-01",
+      "post": "2026-11-01-extensao-chatgpt-le-abas-e-executa-tarefas"
     }
   ]
 }
