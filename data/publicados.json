@@ -547,6 +547,55 @@
       "tema": "Extensão do ChatGPT para navegadores Chromium ganha barra lateral que lê abas abertas e integração com o ChatGPT Work para executar tarefas, para todos os planos",
       "data": "2026-11-01",
       "post": "2026-11-01-extensao-chatgpt-le-abas-e-executa-tarefas"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+        "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+      ],
+      "tema": "New York Times, Daily News, Chicago Tribune e Orlando Sentinel processam a Brave em Manhattan por raspar conteúdo (índice de 30 bi de páginas) e repassá-lo a Anthropic, Perplexity, Mistral, xAI e Cohere, além de contornar paywalls",
+      "data": "2026-11-02",
+      "post": "2026-11-02-new-york-times-processa-brave"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+        "https://canaltech.com.br/inteligencia-artificial/chatgpt-vai-juntar-conversas-e-agentes-de-ia-no-mesmo-lugar-do-app/"
+      ],
+      "tema": "OpenAI une as abas Chat e Work do ChatGPT (teste com grupo limitado) e ChatGPT e Codex passam a dividir o mesmo pool de cota de uso",
+      "data": "2026-11-02",
+      "post": "2026-11-02-chatgpt-une-abas-chat-e-work"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+      ],
+      "tema": "Musk confirma corte nos limites semanais do Grok Bot, agente da SpaceX, porque o custo de servir era insustentavelmente alto frente à receita",
+      "data": "2026-11-02",
+      "post": "2026-11-02-musk-corta-limites-do-grok-bot"
+    },
+    {
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "urls": [
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+        "https://news.ycombinator.com/item?id=50334038"
+      ],
+      "tema": "Anúncio nº 48 do MOFCOM/MOST propõe controle de exportação de 23 tecnologias de IA na China (10^26 FLOPs, 2T parâmetros, top 10, limiares para agentes), com registro provisório desde 16/10 e consulta até 15/11/2026",
+      "data": "2026-11-02",
+      "post": "2026-11-02-china-propoe-controle-de-exportacao-de-ia"
+    },
+    {
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "urls": [
+        "https://www.anthropic.com/research/self-replicating-ai",
+        "https://olhardigital.com.br/2026/11/02/seguranca/ia-pode-criar-virus-que-infecta-eletrodomesticos-com-internet/"
+      ],
+      "tema": "Estudo do Frontier Red Team da Anthropic mostra modelos pequenos (GLM-5.2, Gemma4, Qwen3.5) se replicando em rede de dispositivos Android/IoT sem data center",
+      "data": "2026-11-02",
+      "post": "2026-11-02-anthropic-testa-ia-que-se-replica-em-iot"
     }
   ]
 }
