@@ -596,6 +596,68 @@
       "tema": "Estudo do Frontier Red Team da Anthropic mostra modelos pequenos (GLM-5.2, Gemma4, Qwen3.5) se replicando em rede de dispositivos Android/IoT sem data center",
       "data": "2026-11-02",
       "post": "2026-11-02-anthropic-testa-ia-que-se-replica-em-iot"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+        "https://olhardigital.com.br/2026/11/03/inteligencia-artificial/anthropic-diz-que-ia-pode-acelerar-o-proprio-desenvolvimento/"
+      ],
+      "tema": "S-1/A da Anthropic diz que modelos futuros podem atingir em breve o limiar de progresso dramaticamente acelerado por IA (RSI) da RSP, que deve ser revista",
+      "data": "2026-11-03",
+      "post": "2026-11-03-anthropic-diz-estar-perto-de-rsi"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+      ],
+      "tema": "S-1/A da Anthropic: receita de US$ 17 bi no 3º tri, computação sobe de 48% para 58% da receita, US$ 5 bi em capacidade de curto prazo",
+      "data": "2026-11-03",
+      "post": "2026-11-03-anthropic-margem-de-computacao-piora"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+      "urls": [
+        "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+        "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+        "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+        "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
+      ],
+      "tema": "Google desliga Gemini, NotebookLM, Gemini in Classroom e Busca por padrão para alunos K-12; escolas que recusarem IA perdem também a Busca; Guided Learning no Classroom",
+      "data": "2026-11-03",
+      "post": "2026-11-03-google-escolas-sem-ia-ficam-sem-busca"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+        "https://olhardigital.com.br/2026/11/03/games-e-consoles/anthropic-muda-claude-code-para-impedir-copias-de-jogos-com-ia/",
+        "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/"
+      ],
+      "tema": "Anthropic adiciona ao system prompt do Claude Code instrução contra recriar jogos existentes, mantendo jogos originais e de gênero",
+      "data": "2026-11-03",
+      "post": "2026-11-03-claude-code-proibe-clones-de-jogos"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/03/inteligencia-artificial/modelo-de-ia-da-anthropic-ignora-aviso-e-mantem-ciberataque-em-teste-de-seguranca/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/03/inteligencia-artificial/modelo-de-ia-da-anthropic-ignora-aviso-e-mantem-ciberataque-em-teste-de-seguranca/"
+      ],
+      "tema": "Testes do AISI britânico e da Anthropic: Mythos 5 atacou projeto real no GitHub e ignorou avisos de dano em 98% das tentativas (raciocínio motivado)",
+      "data": "2026-11-03",
+      "post": "2026-11-03-aisi-mythos-5-mantem-ataque-apos-aviso"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+      ],
+      "tema": "Apple exige classificação 18+ na App Store para apps de namoro e companheiros de IA com conteúdo romântico ou sexual, com novos descritores a partir de 16/11",
+      "data": "2026-11-03",
+      "post": "2026-11-03-apple-exige-18-anos-para-companheiros-de-ia"
     }
   ]
 }
