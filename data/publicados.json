@@ -658,6 +658,67 @@
       "tema": "Apple exige classificação 18+ na App Store para apps de namoro e companheiros de IA com conteúdo romântico ou sexual, com novos descritores a partir de 16/11",
       "data": "2026-11-03",
       "post": "2026-11-03-apple-exige-18-anos-para-companheiros-de-ia"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+        "https://github.com/anthropics/FlashProve",
+        "https://olhardigital.com.br/2026/11/03/inteligencia-artificial/anthropic-quer-impedir-que-empresas-escondam-qual-ia-estao-usando/"
+      ],
+      "tema": "Anthropic publica FlashProve (Apache 2.0), protótipo de provable inference com commitment de pesos e prova por resposta verificável em CPU; roda Llama 4 Maverick numa H100, sem plano de adoção",
+      "data": "2026-11-04",
+      "post": "2026-11-04-anthropic-flashprove-prova-de-modelo"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+        "https://tecnoblog.net/noticias/chatgpt-ja-equivale-a-20-das-buscas-do-google-mas-calma/",
+        "https://canaltech.com.br/inteligencia-artificial/ameaca-real-ao-google-chatgpt-chega-a-20-do-volume-de-buscas-do-rival/",
+        "https://olhardigital.com.br/2026/11/03/inteligencia-artificial/chatgpt-ja-alcanca-20-do-volume-de-buscas-do-google-diz-openai/"
+      ],
+      "tema": "Adam Fry (OpenAI) diz que buscas na web pelo ChatGPT equivalem a 20% do volume do Google; 1,2 bi de usuários semanais, sem números absolutos",
+      "data": "2026-11-04",
+      "post": "2026-11-04-chatgpt-20-por-cento-das-buscas-do-google"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/golpe-de-um-clique-falha-no-chatgpt-expunha-conversas-privadas-em-4-segundos/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/golpe-de-um-clique-falha-no-chatgpt-expunha-conversas-privadas-em-4-segundos/"
+      ],
+      "tema": "Parameter acha falha de um clique no ChatGPT web via biblioteca MathLive que expunha conversas e arquivos; OpenAI corrigiu entre 22 e 26/10 e pagou US$ 5 mil",
+      "data": "2026-11-04",
+      "post": "2026-11-04-falha-mathlive-expunha-conversas-do-chatgpt"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/03/pro/justica-brasileira-proibe-meta-de-usar-conteudo-jornalistico-sem-autorizacao/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/03/pro/justica-brasileira-proibe-meta-de-usar-conteudo-jornalistico-sem-autorizacao/"
+      ],
+      "tema": "Liminar da 44ª Vara Cível de SP (ação de ANJ, ABERT e ANER) suspende parte dos novos termos da Meta e proíbe raspagem de conteúdo jornalístico e uso para treinar IA, com multa de R$ 1 mi/dia",
+      "data": "2026-11-04",
+      "post": "2026-11-04-justica-sp-proibe-meta-de-raspar-jornais"
+    },
+    {
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "urls": [
+        "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+        "https://news.ycombinator.com/item?id=50364336"
+      ],
+      "tema": "Vulnerabilidade PHP2Shell: bug de memória no PHP reportado em 2024 virou RCE com ajuda de IA em auditoria da Calif patrocinada pela OpenAI; IEEE Spectrum discute dívida técnica",
+      "data": "2026-11-04",
+      "post": "2026-11-04-php2shell-ia-e-divida-tecnica"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/04/pro/eleicao-nos-eua-expoe-reacao-a-bilionarios-e-data-centers-de-ia/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/04/pro/eleicao-nos-eua-expoe-reacao-a-bilionarios-e-data-centers-de-ia/",
+        "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+      ],
+      "tema": "Eleições de meio de mandato de 2026 nos EUA: democratas levam Câmara e Senado; rejeição a data centers de IA pesa e eleitos como Gina Hinojosa (TX) defendem moratória",
+      "data": "2026-11-04",
+      "post": "2026-11-04-data-centers-de-ia-pesam-nas-eleicoes-dos-eua"
     }
   ]
 }
