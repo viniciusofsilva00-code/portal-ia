@@ -28,6 +28,7 @@ const nav = [
     <title>{tituloCompleto}</title>
     <meta name="description" content={descricao} />
     <meta name="theme-color" content="#0a0a0a" />
+    <script is:inline>try{var t=localStorage.getItem("vl_tema");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title={SITE_TITULO} href={url('rss.xml')} />
     <link rel="icon" href={url('favicon.ico')} sizes="32x32" />
@@ -55,6 +56,7 @@ const nav = [
             <a href={n.href} class={n.classe} aria-label={n.aria} title={n.aria} aria-current={(n.href === inicio ? caminho.replace(/\/$/, '') === inicio.replace(/\/$/, '') : caminho.startsWith(n.href)) ? 'page' : undefined}>{n.rotulo}</a>
           ))}
         </nav>
+        <button type="button" class="tema" id="tema" aria-label="Usar tema escuro" title="Usar tema escuro">☾ escuro</button>
       </div>
     </header>
     <main class="wrap">
@@ -72,5 +74,28 @@ const nav = [
         <span class="mono">// atualizado todo dia às 08:00 BRT · <a href={url('rss.xml')}>rss</a></span>
       </div>
     </footer>
+    <script is:inline>
+      (function () {
+        var b = document.getElementById('tema');
+        var mq = window.matchMedia('(prefers-color-scheme: dark)');
+        var salvo = function () { try { var t = localStorage.getItem('vl_tema'); return t === 'light' || t === 'dark' ? t : null; } catch (e) { return null; } };
+        var atual = function () { return document.documentElement.dataset.theme || (mq.matches ? 'dark' : 'light'); };
+        var pintar = function () {
+          var escuro = atual() === 'dark';
+          b.textContent = escuro ? '☀ claro' : '☾ escuro';
+          var r = escuro ? 'Usar tema claro' : 'Usar tema escuro';
+          b.setAttribute('aria-label', r); b.title = r;
+        };
+        b.addEventListener('click', function () {
+          var novo = atual() === 'dark' ? 'light' : 'dark';
+          document.documentElement.dataset.theme = novo;
+          try { localStorage.setItem('vl_tema', novo); } catch (e) {}
+          pintar();
+        });
+        var seguir = function () { if (!salvo()) { delete document.documentElement.dataset.theme; pintar(); } };
+        if (mq.addEventListener) mq.addEventListener('change', seguir); else if (mq.addListener) mq.addListener(seguir);
+        pintar();
+      })();
+    </script>
   </body>
 </html>
