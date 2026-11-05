@@ -719,6 +719,63 @@
       "tema": "Eleições de meio de mandato de 2026 nos EUA: democratas levam Câmara e Senado; rejeição a data centers de IA pesa e eleitos como Gina Hinojosa (TX) defendem moratória",
       "data": "2026-11-04",
       "post": "2026-11-04-data-centers-de-ia-pesam-nas-eleicoes-dos-eua"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+        "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+      ],
+      "tema": "Google lança Gemini Omni 1.2 Flash: vídeo de 3 a 15 s, edição multi-turn, US$ 0,07/s em 720p (30% mais barato que o 1.1), GA na Gemini API e Vertex AI",
+      "data": "2026-11-05",
+      "post": "2026-11-05-gemini-omni-1-2-flash"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "urls": [
+        "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+        "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+      ],
+      "tema": "Anthropic lança Personal Finance no Claude (beta, EUA, Pro/Max/Ultra): contas bancárias via Plaid, somente leitura, até dois anos de transações",
+      "data": "2026-11-05",
+      "post": "2026-11-05-claude-personal-finance"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-agora-cria-gifs-animados-direto-no-chat-e-permite-editar-quadros/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/chatgpt-agora-cria-gifs-animados-direto-no-chat-e-permite-editar-quadros/",
+        "https://olhardigital.com.br/2026/11/04/inteligencia-artificial/chatgpt-ganha-ferramenta-para-criar-e-editar-gifs/"
+      ],
+      "tema": "OpenAI lança Images 2.6 com criação e edição de GIFs no ChatGPT e, na API, GPT-Image-2.6 Flare e Sunburst com exportação SVG",
+      "data": "2026-11-05",
+      "post": "2026-11-05-openai-images-2-6-gifs"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "urls": [
+        "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+      ],
+      "tema": "Meta compra a Conductor (orquestração de agentes de código em paralelo); nuvem do produto desligada em 20/11/2026",
+      "data": "2026-11-05",
+      "post": "2026-11-05-meta-compra-conductor"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "urls": [
+        "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+      ],
+      "tema": "Apple corta teto diário de gasto com IA de engenheiros de US$ 300 para US$ 200, com planos de US$ 100 e até US$ 25 fora da engenharia (Bloomberg)",
+      "data": "2026-11-05",
+      "post": "2026-11-05-apple-corta-orcamento-de-ia-interno"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "urls": [
+        "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+      ],
+      "tema": "Greg Brockman diz que a OpenAI pode estar pronta para IPO em 2027; receita anualizada +70% no 3º tri com segmento corporativo dobrando",
+      "data": "2026-11-05",
+      "post": "2026-11-05-brockman-openai-ipo-2027"
     }
   ]
 }
