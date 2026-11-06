@@ -776,6 +776,64 @@
       "tema": "Greg Brockman diz que a OpenAI pode estar pronta para IPO em 2027; receita anualizada +70% no 3º tri com segmento corporativo dobrando",
       "data": "2026-11-05",
       "post": "2026-11-05-brockman-openai-ipo-2027"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "urls": [
+        "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+        "https://olhardigital.com.br/2026/11/06/seguranca/novo-modelo-da-openai-identifica-centenas-de-falhas-de-seguranca/"
+      ],
+      "tema": "OpenAI lança GPT-6 Cyber restrito ao Daybreak Red: 948 exploits no Linux, 81 falhas inéditas no Firefox, ExploitGym 48,5% e US$ 1 bi para defensores",
+      "data": "2026-11-06",
+      "post": "2026-11-06-openai-gpt-6-cyber-daybreak"
+    },
+    {
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "urls": [
+        "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+        "https://olhardigital.com.br/2026/11/05/inteligencia-artificial/ia-acelera-em-quase-duas-vezes-o-desenvolvimento-de-modelos-da-anthropic/"
+      ],
+      "tema": "Avaliação da METR: capacidade dos modelos da Anthropic cresce 1,9x o ritmo pré-out/2025, ~80% atribuído a IA em P&D; Anthropic redigiu a maior parte da evidência",
+      "data": "2026-11-06",
+      "post": "2026-11-06-metr-aceleracao-pesquisa-anthropic"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/05/inteligencia-artificial/nova-ia-da-perplexity-assume-tarefas-continuas-e-trabalha-com-outros-agentes/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/05/inteligencia-artificial/nova-ia-da-perplexity-assume-tarefas-continuas-e-trabalha-com-outros-agentes/",
+        "https://canaltech.com.br/inteligencia-artificial/perplexity-lanca-agentes-de-ia-que-trabalham-247-e-ate-usam-o-slack/",
+        "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+      ],
+      "tema": "Perplexity lança Teammates, agentes contínuos sobre o Perplexity Computer com integração ao Slack, no plano Max (US$ 200/mês), só na web",
+      "data": "2026-11-06",
+      "post": "2026-11-06-perplexity-teammates-agentes"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "urls": [
+        "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+      ],
+      "tema": "Ramp AI Index: gasto com tokens cresce só 1,5% em ago-set/2026 (42% em julho) enquanto uso sobe; cortes de preço e controle de custos",
+      "data": "2026-11-06",
+      "post": "2026-11-06-ramp-gasto-com-ia-estagna"
+    },
+    {
+      "url": "https://tecnoblog.net/noticias/nubank-demite-funcionarios-apos-ia-reduzir-fila-de-fraudes/",
+      "urls": [
+        "https://tecnoblog.net/noticias/nubank-demite-funcionarios-apos-ia-reduzir-fila-de-fraudes/"
+      ],
+      "tema": "Nubank demite cerca de 30 analistas da equipe de investigação de fraudes após IA reduzir fila de golpes em 80% (Folha); banco fala em reestruturação",
+      "data": "2026-11-06",
+      "post": "2026-11-06-nubank-demite-equipe-de-fraude-apos-ia"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "urls": [
+        "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      ],
+      "tema": "Nvidia libera quatro variantes abertas do Cosmos 3 Nano (licença OpenMDW 1.1) para simulação interativa de direção autônoma e robôs bimanuais",
+      "data": "2026-11-06",
+      "post": "2026-11-06-nvidia-cosmos-3-nano-simulacao"
     }
   ]
 }
