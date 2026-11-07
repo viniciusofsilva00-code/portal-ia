@@ -834,6 +834,64 @@
       "tema": "Nvidia libera quatro variantes abertas do Cosmos 3 Nano (licença OpenMDW 1.1) para simulação interativa de direção autônoma e robôs bimanuais",
       "data": "2026-11-06",
       "post": "2026-11-06-nvidia-cosmos-3-nano-simulacao"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "urls": [
+        "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+        "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+      ],
+      "tema": "OpenAI capta US$ 11 bi a avaliação de US$ 1,25 tri (Bloomberg), rodada pode chegar a US$ 20 bi, abaixo da meta de US$ 30 bi a US$ 1,4 tri; compradores do IPO da Anthropic falam em até US$ 1,1 tri",
+      "data": "2026-11-07",
+      "post": "2026-11-07-openai-capta-11-bilhoes-a-1-25-trilhao"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/07/pro/meta-adia-regras-sobre-coleta-de-conteudo-jornalistico-para-treinar-ia/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/07/pro/meta-adia-regras-sobre-coleta-de-conteudo-jornalistico-para-treinar-ia/",
+        "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/"
+      ],
+      "tema": "Meta adia atualização de quatro termos comerciais (coleta de conteúdo de veículos para IA) que valeria em 20/11/2026, após liminar em SP, Noruega, cartas de senadores dos EUA e investigação da CMA",
+      "data": "2026-11-07",
+      "post": "2026-11-07-meta-adia-termos-de-coleta-para-ia"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "urls": [
+        "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+      ],
+      "tema": "Crusoe vende ao Google projeto inacabado de data center de até 10 GW no sudeste de Wyoming (com Tallgrass); Google promete investir US$ 17 bi",
+      "data": "2026-11-07",
+      "post": "2026-11-07-crusoe-vende-data-center-de-wyoming-ao-google"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "urls": [
+        "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+      ],
+      "tema": "Censys acha mais de 800 instâncias expostas sem senha do Artex, ferramenta chinesa open source de pentest autônomo com agentes de IA ligada a ataques na Coreia do Sul e à ConnectWise; código será fechado",
+      "data": "2026-11-07",
+      "post": "2026-11-07-censys-acha-800-instancias-expostas-do-artex"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "urls": [
+        "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+        "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+      ],
+      "tema": "Meta lança Spaces no agente Muse: miniapps/painéis criados por descrição que se atualizam com dados de apps conectados",
+      "data": "2026-11-07",
+      "post": "2026-11-07-meta-muse-ganha-spaces"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/06/inteligencia-artificial/china-mantem-600-mil-chips-da-nvidia-parados-a-espera-de-autorizacao/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/06/inteligencia-artificial/china-mantem-600-mil-chips-da-nvidia-parados-a-espera-de-autorizacao/",
+        "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+      ],
+      "tema": "Cerca de 600 mil Nvidia H200 parados em Hong Kong à espera de autorização de Pequim; servidor com 8 H200 triplica de preço no mercado paralelo; NYT aponta empresa aprovada (New Matrix) com escritório vazio",
+      "data": "2026-11-07",
+      "post": "2026-11-07-600-mil-h200-parados-em-hong-kong"
     }
   ]
 }
