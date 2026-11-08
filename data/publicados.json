@@ -892,6 +892,34 @@
       "tema": "Cerca de 600 mil Nvidia H200 parados em Hong Kong à espera de autorização de Pequim; servidor com 8 H200 triplica de preço no mercado paralelo; NYT aponta empresa aprovada (New Matrix) com escritório vazio",
       "data": "2026-11-07",
       "post": "2026-11-07-600-mil-h200-parados-em-hong-kong"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "urls": [
+        "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+      ],
+      "tema": "Memorando de inteligência dos EUA (NYT/FT) diz que o MSS chinês recrutou Alice Huang, executiva da Megaspeed, para espionar Jensen Huang; Nvidia diz que interações foram normais",
+      "data": "2026-11-08",
+      "post": "2026-11-08-memorando-espionagem-ceo-nvidia"
+    },
+    {
+      "url": "https://hunch.net/?p=13764006",
+      "urls": [
+        "https://hunch.net/?p=13764006",
+        "https://news.ycombinator.com/item?id=50406563"
+      ],
+      "tema": "John Langford sai da Microsoft e anuncia o fim do AI Frontiers (MSR, ~50 pessoas, Autogen e Fara), reorganizado na Microsoft AI em setembro de 2026",
+      "data": "2026-11-08",
+      "post": "2026-11-08-fim-do-ai-frontiers-da-microsoft-research"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/08/seguranca/como-criminosos-usaram-rostos-falsos-para-desviar-mais-de-r-700-milhoes/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/08/seguranca/como-criminosos-usaram-rostos-falsos-para-desviar-mais-de-r-700-milhoes/"
+      ],
+      "tema": "DOJ acusa Jacob Soall, Sharon Hazan e Guy Sheetrit de fraude com deepfakes de executivos que desviou ao menos US$ 129 milhões de empresas",
+      "data": "2026-11-08",
+      "post": "2026-11-08-eua-acusam-trio-por-fraude-com-deepfakes-de-executivos"
     }
   ]
 }
