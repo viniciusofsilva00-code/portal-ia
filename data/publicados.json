@@ -920,6 +920,80 @@
       "tema": "DOJ acusa Jacob Soall, Sharon Hazan e Guy Sheetrit de fraude com deepfakes de executivos que desviou ao menos US$ 129 milhões de empresas",
       "data": "2026-11-08",
       "post": "2026-11-08-eua-acusam-trio-por-fraude-com-deepfakes-de-executivos"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "urls": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+        "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+      ],
+      "tema": "Anthropic lança Claude Fable 5.2 e Mythos 5.2: US$ 8/US$ 40 por milhão de tokens (entrada caiu de US$ 10), saída até 30% mais rápida, FrontierSWE v2 69,9%, Mythos restrito a programas de verificação",
+      "data": "2026-11-09",
+      "post": "2026-11-09-anthropic-lanca-claude-fable-e-mythos-5-2"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "urls": [
+        "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+        "https://olhardigital.com.br/2026/11/09/inteligencia-artificial/meta-lanca-o-muse-ember-modelo-leve-de-ia-focado-em-agentes/"
+      ],
+      "tema": "Meta lança Muse Ember, modelo leve multimodal para execução de agentes a US$ 0,10 por milhão de tokens de entrada, par do Muse Wonder",
+      "data": "2026-11-09",
+      "post": "2026-11-09-meta-lanca-muse-ember"
+    },
+    {
+      "url": "https://canaltech.com.br/hardware/google-lanca-novos-chips-de-ia-para-aumentar-seguranca-e-poder-computacional/",
+      "urls": [
+        "https://canaltech.com.br/hardware/google-lanca-novos-chips-de-ia-para-aumentar-seguranca-e-poder-computacional/",
+        "https://olhardigital.com.br/2026/11/09/inteligencia-artificial/google-lanca-chips-de-ia-para-proteger-dados-e-ampliar-memoria/"
+      ],
+      "tema": "Google Cloud anuncia TPU 8tx (computação confidencial, hosts AMD EPYC) e TPU 8i Max (dois chips 8i, dobro de memória); Cloud Pathways GA no GKE e TorchTPU open source",
+      "data": "2026-11-09",
+      "post": "2026-11-09-google-anuncia-tpu-8tx-e-tpu-8i-max"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "urls": [
+        "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+        "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+        "https://canaltech.com.br/hardware/ceo-da-nvidia-admite-traicao-em-meio-a-escandalo-de-espionagem-chinesa/",
+        "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+        "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+        "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+        "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me"
+      ],
+      "tema": "Jensen Huang admite em memorando caso com Alice Huang (Megaspeed); diretores independentes da Nvidia abrem investigação sobre possível espionagem chinesa; Câmara dos EUA pede explicações",
+      "data": "2026-11-09",
+      "post": "2026-11-09-jensen-huang-admite-caso-e-nvidia-abre-investigacao"
+    },
+    {
+      "url": "https://tecnoblog.net/noticias/apple-comeca-a-cobrar-por-uso-extra-de-ia-em-apps-profissionais/",
+      "urls": [
+        "https://tecnoblog.net/noticias/apple-comeca-a-cobrar-por-uso-extra-de-ia-em-apps-profissionais/",
+        "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+      ],
+      "tema": "Apple vende Intelligence Usage Packs de US$ 49,99 para uso extra de IA na nuvem após a cota mensal, começando pelo Logic Pro; créditos valem 12 meses",
+      "data": "2026-11-09",
+      "post": "2026-11-09-apple-vende-pacotes-de-uso-extra-de-ia"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "urls": [
+        "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
+      ],
+      "tema": "Anthropic compra US$ 3,4 bi em geradores a gás da Caterpillar (até 1,7 GW), lote antes encomendado pela OnePWR, segundo o FT",
+      "data": "2026-11-09",
+      "post": "2026-11-09-anthropic-compra-geradores-a-gas-da-caterpillar"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/fim-do-anonimato-claude-passa-a-marcar-todos-os-textos-com-marca-dagua-invisivel/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/fim-do-anonimato-claude-passa-a-marcar-todos-os-textos-com-marca-dagua-invisivel/"
+      ],
+      "tema": "Marca d'água invisível do Claude estendida a Opus 4.6, Opus 4.5, Sonnet 4.5 e Haiku 4.5 a partir de 16/11/2026 (aviso a clientes da API, via The Decoder)",
+      "data": "2026-11-09",
+      "post": "2026-11-09-marca-dagua-do-claude-chega-a-modelos-antigos"
     }
   ]
 }
