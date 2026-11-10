@@ -994,6 +994,79 @@
       "tema": "Marca d'água invisível do Claude estendida a Opus 4.6, Opus 4.5, Sonnet 4.5 e Haiku 4.5 a partir de 16/11/2026 (aviso a clientes da API, via The Decoder)",
       "data": "2026-11-09",
       "post": "2026-11-09-marca-dagua-do-claude-chega-a-modelos-antigos"
+    },
+    {
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "urls": [
+        "https://www.anthropic.com/news/roadshow-launch",
+        "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+        "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+        "https://olhardigital.com.br/2026/11/10/pro/anthropic-inicia-ipo-historico-com-avaliacao-de-ate-us-14-trilhao/",
+        "https://olhardigital.com.br/2026/11/10/pro/anthropic-chega-ao-ipo-em-meio-a-duvidas-sobre-gastos-com-ia/",
+        "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+      ],
+      "tema": "Anthropic lança roadshow do IPO: 825 mi de ações Classe A a US$ 70-78 na Nasdaq (ANT), avaliação de até US$ 1,404 tri, colocação privada de US$ 26 bi, estreia por volta de 19/11",
+      "data": "2026-11-10",
+      "post": "2026-11-10-anthropic-abre-roadshow-do-ipo"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+        "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+      ],
+      "tema": "Gemini 4 Carbon disponível para todos na API paga e no AI Ultra, US$ 2/US$ 10 até 30/11 e US$ 4/US$ 20 depois, com /swarm em preview no Antigravity",
+      "data": "2026-11-10",
+      "post": "2026-11-10-gemini-4-carbon-liberado-para-todos"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "urls": [
+        "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+        "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+      ],
+      "tema": "Anthropic lança Claude Meetings (beta, Team/Enterprise, só Google Meet), Claude Sheets e Claude Whiteboards; Claude Data em GA e conectores interativos",
+      "data": "2026-11-10",
+      "post": "2026-11-10-anthropic-lanca-claude-meetings-sheets-whiteboards"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "urls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "tema": "DeepMind apresenta AlphaProof Code e verifica formalmente em Lean a implementação do protocolo do Signal com agentes Gemini Carbon (mais de 6 mi de linhas, 4 semanas)",
+      "data": "2026-11-10",
+      "post": "2026-11-10-deepmind-alphaproof-code-verifica-signal"
+    },
+    {
+      "url": "https://canaltech.com.br/seguranca/alerta-para-devs-claude-code-vaza-senhas-e-chaves-de-api-em-massa-no-github/",
+      "urls": [
+        "https://canaltech.com.br/seguranca/alerta-para-devs-claude-code-vaza-senhas-e-chaves-de-api-em-massa-no-github/"
+      ],
+      "tema": "Apiiro acha 2.539 credenciais reais em 1.994 repositórios públicos via .claude/settings.local.json do Claude Code, que não entra no .gitignore do projeto",
+      "data": "2026-11-10",
+      "post": "2026-11-10-claude-code-settings-local-vaza-credenciais"
+    },
+    {
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "urls": [
+        "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+        "https://fireworks.ai/security/bulletins/october-2026-security-incident-update"
+      ],
+      "tema": "Incidente na Fireworks AI (LLMJacking) expõe transcrições do Notion AI usadas no Insights (<1% dos workspaces) e segredos, datasets e pesos de clientes da Fireworks",
+      "data": "2026-11-10",
+      "post": "2026-11-10-invasao-na-fireworks-ai-expoe-chats-do-notion-ai"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "urls": [
+        "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+        "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+      ],
+      "tema": "DeepMind lança Gemini Robotics 2.5 (VLA, 30% a 100% mais sucesso, piloto com Apptronik e Mercedes-Benz) e benchmark aberto ASIMOV-Jailbreak",
+      "data": "2026-11-10",
+      "post": "2026-11-10-deepmind-gemini-robotics-2-5"
     }
   ]
 }
