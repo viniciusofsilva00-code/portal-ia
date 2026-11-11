@@ -1067,6 +1067,72 @@
       "tema": "DeepMind lança Gemini Robotics 2.5 (VLA, 30% a 100% mais sucesso, piloto com Apptronik e Mercedes-Benz) e benchmark aberto ASIMOV-Jailbreak",
       "data": "2026-11-10",
       "post": "2026-11-10-deepmind-gemini-robotics-2-5"
+    },
+    {
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "urls": [
+        "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+      ],
+      "tema": "DeepMind lança AlphaGenome 2 (previsão condicionada por tipo celular, TenK10K 16%→30% de variantes causais) e AlphaGenome Atlas; API para pesquisa não comercial",
+      "data": "2026-11-11",
+      "post": "2026-11-11-deepmind-lanca-alphagenome-2"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "urls": [
+        "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+      ],
+      "tema": "Nova York abre registro da RAISE Act (receita > US$ 500 mi, registro até 1/1/2027, incidentes em 72 h, multas até US$ 1 mi/US$ 3 mi, fiscalização do DIGIT)",
+      "data": "2026-11-11",
+      "post": "2026-11-11-nova-york-abre-registro-da-lei-raise"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/10/inteligencia-artificial/mec-libera-ia-para-corrigir-provas-mas-professores-continuam-responsaveis-pelas-notas/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/10/inteligencia-artificial/mec-libera-ia-para-corrigir-provas-mas-professores-continuam-responsaveis-pelas-notas/"
+      ],
+      "tema": "MEC homologa diretrizes nacionais de IA na educação: veto a alunos na educação infantil, mediação no fundamental, pré-correção por IA no ensino médio com nota do professor",
+      "data": "2026-11-11",
+      "post": "2026-11-11-mec-homologa-diretrizes-de-ia-na-educacao"
+    },
+    {
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "urls": [
+        "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/"
+      ],
+      "tema": "Vazamento: Apple prepara o Harbor (marca Claris), servidor de inferência local de modelos abertos com cluster de Macs via Thunderbolt 5",
+      "data": "2026-11-11",
+      "post": "2026-11-11-apple-prepara-harbor-para-rodar-modelos-locais"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "urls": [
+        "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+      ],
+      "tema": "Bloomberg: receita da OpenAI passa de US$ 10 bi no 3º tri de 2026 (US$ 6,7 bi no 2º), anualizada de US$ 50 bi, margem operacional ajustada de -109%",
+      "data": "2026-11-11",
+      "post": "2026-11-11-receita-trimestral-da-openai-passa-de-10-bi"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "urls": [
+        "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+        "https://olhardigital.com.br/2026/11/11/pro/openai-testa-perfis-comerciais-oficiais-de-empresas-no-chatgpt/"
+      ],
+      "tema": "OpenAI lança Business Hub em beta nos EUA: perfis verificados de empresas no ChatGPT, catálogos com preço e estoque, agentes próprios e métricas de menções",
+      "data": "2026-11-11",
+      "post": "2026-11-11-chatgpt-ganha-perfis-de-empresas-no-business-hub"
+    },
+    {
+      "url": "https://tecnoblog.net/noticias/amazon-anuncia-versao-web-da-alexa-para-usuarios-no-brasil/",
+      "urls": [
+        "https://tecnoblog.net/noticias/amazon-anuncia-versao-web-da-alexa-para-usuarios-no-brasil/",
+        "https://olhardigital.com.br/2026/11/11/reviews/alexa-com-ia-ganha-versao-para-ser-usada-no-computador-no-brasil/"
+      ],
+      "tema": "Amazon lança Alexa+ na web no Brasil (alexa.amazon.com.br) para quem está no Acesso Antecipado gratuito até fevereiro de 2027",
+      "data": "2026-11-11",
+      "post": "2026-11-11-alexa-plus-ganha-versao-web-no-brasil"
     }
   ]
 }
