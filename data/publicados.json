@@ -1133,6 +1133,60 @@
       "tema": "Amazon lança Alexa+ na web no Brasil (alexa.amazon.com.br) para quem está no Acesso Antecipado gratuito até fevereiro de 2027",
       "data": "2026-11-11",
       "post": "2026-11-11-alexa-plus-ganha-versao-web-no-brasil"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+      ],
+      "tema": "Google lança Gemini 4 Hydrogen (execução rápida para agentes, US$ 1,50/US$ 7,50, 1M de contexto com preço fixo, nível xhigh) e o leva à Busca globalmente",
+      "data": "2026-11-12",
+      "post": "2026-11-12-google-lanca-gemini-4-hydrogen"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "urls": [
+        "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+        "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+        "https://olhardigital.com.br/2026/11/12/pro/acoes-da-nvidia-afundam-12-na-abertura-apos-saida-de-jensen-huang/",
+        "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+        "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+        "https://canaltech.com.br/hardware/jensen-huang-renuncia-ao-cargo-de-ceo-da-nvidia-apos-admitir-traicao/"
+      ],
+      "tema": "Jensen Huang renuncia à Nvidia após reportagem sobre segundo caso (Kimberly Powell); Colette Kress CEO interina, Harvey Jones primeiro chair, ações até -12%, depoimento fechado na Câmara dos EUA",
+      "data": "2026-11-12",
+      "post": "2026-11-12-jensen-huang-renuncia-ao-comando-da-nvidia"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "urls": [
+        "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+        "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+        "https://tecnoblog.net/noticias/united-airlines-bane-agentes-de-ia-na-compra-de-passagens/"
+      ],
+      "tema": "United Airlines proíbe agentes de IA pessoais de terceiros de reservar e gerenciar voos, citando credenciais, compras indesejadas e regras federais de check-in",
+      "data": "2026-11-12",
+      "post": "2026-11-12-united-airlines-bloqueia-agentes-de-ia"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/openai-vai-aposentar-vozes-classicas-e-modo-avancado-do-chatgpt/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/openai-vai-aposentar-vozes-classicas-e-modo-avancado-do-chatgpt/"
+      ],
+      "tema": "OpenAI desliga Advanced Voice e Standard Voice do ChatGPT em 11/12/2026, deixando só o GPT-Live; vídeo e compartilhamento de tela seguem no modo antigo por ora",
+      "data": "2026-11-12",
+      "post": "2026-11-12-chatgpt-aposenta-modos-de-voz-antigos"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "urls": [
+        "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+      ],
+      "tema": "SoftBank perde mais de US$ 3 bi (de prejuízo trimestral de US$ 7,1 bi) com sinais por mais de 13 GW em turbinas a gás para data centers de IA",
+      "data": "2026-11-12",
+      "post": "2026-11-12-softbank-perde-us-3-bi-com-turbinas-a-gas"
     }
   ]
 }
