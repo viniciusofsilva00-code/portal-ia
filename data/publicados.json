@@ -1187,6 +1187,63 @@
       "tema": "SoftBank perde mais de US$ 3 bi (de prejuízo trimestral de US$ 7,1 bi) com sinais por mais de 13 GW em turbinas a gás para data centers de IA",
       "data": "2026-11-12",
       "post": "2026-11-12-softbank-perde-us-3-bi-com-turbinas-a-gas"
+    },
+    {
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "urls": [
+        "https://openai.com/index/introducing-chatgpt-wallet",
+        "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+        "https://olhardigital.com.br/2026/11/13/inteligencia-artificial/voce-confia-agente-de-ia-da-openai-chatgpt-wallet-fara-compras-pelo-usuario-e-promete-seguranca/"
+      ],
+      "tema": "OpenAI lança ChatGPT Wallet: dots finalizam compras com cartões Visa/Mastercard/Amex dos EUA tokenizados e biometria, só para parte dos assinantes Pro nos EUA; limites de gasto e pré-aprovação depois",
+      "data": "2026-11-13",
+      "post": "2026-11-13-chatgpt-wallet-agentes-fazem-compras"
+    },
+    {
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "urls": [
+        "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+      ],
+      "tema": "Edge0 lança Edge0-145B (MoE, ~10B ativos, NVFP4, pico de 29 GB, notebook de 48 GB) e Edge0-120B com pesos abertos; benchmarks internos, média 72,8 contra 71,7 do Qwen3.8-Flash-Next",
+      "data": "2026-11-13",
+      "post": "2026-11-13-edge0-145b-modelo-local"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/entenda-o-que-assinantes-perdem-com-o-fim-do-gemini-pro-no-google-ai-plus/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/entenda-o-que-assinantes-perdem-com-o-fim-do-gemini-pro-no-google-ai-plus/"
+      ],
+      "tema": "Google AI Plus perde acesso aos modelos Pro (Deep Think, Extended Thinking) a partir de 13/11/2026 para assinantes atuais; alternativa é o AI Pro a R$ 96,99/mês",
+      "data": "2026-11-13",
+      "post": "2026-11-13-google-ai-plus-perde-modelos-pro"
+    },
+    {
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "urls": [
+        "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+      ],
+      "tema": "llama.cpp e ggml chegam à v1.0.0 e adotam versionamento semântico na API C pública (libllama e libggml), após ~3,5 anos; mais de 150 variantes de arquitetura",
+      "data": "2026-11-13",
+      "post": "2026-11-13-llama-cpp-chega-a-versao-1-0"
+    },
+    {
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "urls": [
+        "https://unemploymentlabs.com/checkpoint-forensics"
+      ],
+      "tema": "Will DePue (Unemployment Labs) usa a digital do gerador Philox do PyTorch por número de SMs para apontar inicialização em GPUs Blackwell de DeepSeek-V4, Kimi K3/K3.1-Pro, MiniMax-M3 e Ling-3.1-flash",
+      "data": "2026-11-13",
+      "post": "2026-11-13-modelos-chineses-digital-de-gpus-blackwell"
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "urls": [
+        "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+        "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
+      ],
+      "tema": "Bill Foster diz ao MIT Technology Review que a Nvidia confirmou em privado a viabilidade do rastreamento de chips do Chip Security Act, contra a posição pública da SIA; democratas Neal e Wyden questionam Lutnick sobre exportação de H200",
+      "data": "2026-11-13",
+      "post": "2026-11-13-nvidia-disse-a-deputado-que-rastrear-chips-e-viavel"
     }
   ]
 }
