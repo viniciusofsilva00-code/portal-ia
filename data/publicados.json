@@ -1244,6 +1244,43 @@
       "tema": "Bill Foster diz ao MIT Technology Review que a Nvidia confirmou em privado a viabilidade do rastreamento de chips do Chip Security Act, contra a posição pública da SIA; democratas Neal e Wyden questionam Lutnick sobre exportação de H200",
       "data": "2026-11-13",
       "post": "2026-11-13-nvidia-disse-a-deputado-que-rastrear-chips-e-viavel"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "urls": [
+        "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+      ],
+      "tema": "LangChain capta US$ 300 mi em Série C liderada pela CapitalG a avaliação de US$ 3 bi (ante US$ 1,25 bi um ano antes); diz ter 7.000 clientes no LangSmith",
+      "post": "2026-11-14-langchain-avaliada-em-3-bilhoes",
+      "data": "2026-11-14"
+    },
+    {
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "urls": [
+        "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+      ],
+      "tema": "Google Research detalha o /teamwork do Antigravity (Gemini 4 Argon): prova de Courtade–Kumar, conjecturas de Weil em Lean, Zircon e libgav1 em Rust, Deep Review no STOC 2027",
+      "post": "2026-11-14-google-teamwork-antigravity-resultados",
+      "data": "2026-11-14"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "urls": [
+        "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+        "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+      ],
+      "tema": "Após saída de Jensen Huang, VCs esperam menos aportes da Nvidia em startups (105 rodadas em 2026) sob Colette Kress; Coreia do Sul diz que entrega de 260 mil GPUs segue, Japão e Taiwan monitoram",
+      "post": "2026-11-14-saida-de-huang-startups-e-governos-asiaticos",
+      "data": "2026-11-14"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "urls": [
+        "https://huggingface.co/blog/allenai/xybench"
+      ],
+      "tema": "Ai2 lança XYBench (8.115 perguntas) sobre o problema XY; modelos focam no objetivo real em só 35% a 41% das respostas do Stack Overflow",
+      "post": "2026-11-14-ai2-xybench-problema-xy",
+      "data": "2026-11-14"
     }
   ]
 }
