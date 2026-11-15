@@ -1281,6 +1281,25 @@
       "tema": "Ai2 lança XYBench (8.115 perguntas) sobre o problema XY; modelos focam no objetivo real em só 35% a 41% das respostas do Stack Overflow",
       "post": "2026-11-14-ai2-xybench-problema-xy",
       "data": "2026-11-14"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "urls": [
+        "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+        "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+      ],
+      "tema": "Petição standwithjensen.com (115 mil+ assinaturas, com Musk, Masad, Sweeney e Garry Tan) pede recondução de Jensen Huang durante investigação independente",
+      "data": "2026-11-15",
+      "post": "2026-11-15-peticao-pede-volta-de-jensen-huang"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "urls": [
+        "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+      ],
+      "tema": "CSO da Nvidia David Reber saiu em agosto (Parkinson), substituído por Saša Zdjelar; caso Huang expõe falta de programas contra ameaças internas/aliciamento de executivos",
+      "data": "2026-11-15",
+      "post": "2026-11-15-saida-de-chefe-de-seguranca-da-nvidia"
     }
   ]
 }
