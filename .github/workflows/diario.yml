@@ -165,7 +165,17 @@ jobs:
             "deploy":"${{ steps.deploy.outcome }}"}
         run: node scripts/email.mjs
 
-      - name: 6. Enviar e-mail
+      # Antes do e-mail: se o WhatsApp falhar (após novas tentativas), o aviso entra no e-mail.
+      - name: 6. Enviar WhatsApp
+        if: always() && steps.email.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 3
+        env:
+          MCPAI_KEY: ${{ secrets.MCPAI_KEY }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+        run: node scripts/whatsapp.mjs
+
+      - name: 7. Enviar e-mail
         if: always() && steps.email.outcome == 'success'
         uses: dawidd6/action-send-mail@v23
         with:
@@ -178,14 +188,6 @@ jobs:
           to: vinicius@anchorbrasil.com.br,viniciusofsilva00@gmail.com
           subject: ${{ steps.email.outputs.assunto }}
           html_body: file://tmp/email.html
-
-      - name: 7. Enviar WhatsApp
-        if: always() && steps.email.outcome == 'success'
-        continue-on-error: true
-        env:
-          MCPAI_KEY: ${{ secrets.MCPAI_KEY }}
-          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
-        run: node scripts/whatsapp.mjs
 
       - name: Registrar envio
         if: always()
