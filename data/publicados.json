@@ -1300,6 +1300,55 @@
       "tema": "CSO da Nvidia David Reber saiu em agosto (Parkinson), substituído por Saša Zdjelar; caso Huang expõe falta de programas contra ameaças internas/aliciamento de executivos",
       "data": "2026-11-15",
       "post": "2026-11-15-saida-de-chefe-de-seguranca-da-nvidia"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+      "urls": [
+        "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+        "https://olhardigital.com.br/2026/11/16/inteligencia-artificial/bloqueio-de-chips-de-ia-deve-marcar-reuniao-entre-trump-e-xi-na-china/"
+      ],
+      "tema": "Regra interina do Departamento de Comércio dos EUA exige licença para chips/servidores em data centers no mundo (>12 mi TPP) que possam servir empresas do grupo D:5 via acesso remoto; licença para chips a Malásia, Singapura, Indonésia, Tailândia e Brasil; revoga a AI Diffusion Rule; encontro Trump-Xi em 19/11",
+      "data": "2026-11-16",
+      "post": "2026-11-16-eua-exigem-licenca-para-computacao-remota-de-ia"
+    },
+    {
+      "url": "https://tecnoblog.net/noticias/veterano-do-linux-reduz-atividades-no-projeto-por-causa-da-ia/",
+      "urls": [
+        "https://tecnoblog.net/noticias/veterano-do-linux-reduz-atividades-no-projeto-por-causa-da-ia/"
+      ],
+      "tema": "Lorenzo Stoakes (Arm), mantenedor de gerenciamento de memória do kernel Linux, para de revisar código fora de suas quatro áreas pelo volume de séries de patches geradas por IA (mensagem na LKML em 10/11)",
+      "data": "2026-11-16",
+      "post": "2026-11-16-mantenedor-do-linux-reduz-revisoes-por-patches-de-ia"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "urls": [
+        "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+        "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
+      ],
+      "tema": "Apple lança app de estudo de IA em saúde com a OpenEvidence nos EUA (até 200 mil participantes, 12+ meses, iPhone 15+, iOS 26, HealthKit opcional, dados não treinam modelos)",
+      "data": "2026-11-16",
+      "post": "2026-11-16-apple-lanca-estudo-de-ia-para-saude-com-openevidence"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "urls": [
+        "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+        "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+        "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning"
+      ],
+      "tema": "Ask Maps do Google Maps ganha itinerários com dados em tempo real, agendamento com ligações feitas por agente (EUA), dicas de rota e busca em listas salvas; expande para 30 países europeus",
+      "data": "2026-11-16",
+      "post": "2026-11-16-ask-maps-monta-roteiros-e-liga-para-comercios"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/16/inteligencia-artificial/fmi-e-onu-alertam-para-riscos-financeiros-e-ambientais-da-ia/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/16/inteligencia-artificial/fmi-e-onu-alertam-para-riscos-financeiros-e-ambientais-da-ia/"
+      ],
+      "tema": "FMI (Georgieva) estima mais de US$ 1 tri em financiamento circular entre empresas de IA, 2/3 com dívida; Nvidia perde US$ 1 tri em valor; na COP31 a ONU cobra transparência energética de data centers",
+      "data": "2026-11-16",
+      "post": "2026-11-16-fmi-ve-mais-de-1-tri-em-financiamento-circular-de-ia"
     }
   ]
 }
