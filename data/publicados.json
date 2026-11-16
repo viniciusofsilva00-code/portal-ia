@@ -1349,6 +1349,43 @@
       "tema": "FMI (Georgieva) estima mais de US$ 1 tri em financiamento circular entre empresas de IA, 2/3 com dívida; Nvidia perde US$ 1 tri em valor; na COP31 a ONU cobra transparência energética de data centers",
       "data": "2026-11-16",
       "post": "2026-11-16-fmi-ve-mais-de-1-tri-em-financiamento-circular-de-ia"
+    },
+    {
+      "url": "https://canaltech.com.br/software/apagao-da-microsoft-empresa-explica-os-3-erros-que-derrubaram-80-dos-servidores/",
+      "urls": [
+        "https://canaltech.com.br/software/apagao-da-microsoft-empresa-explica-os-3-erros-que-derrubaram-80-dos-servidores/"
+      ],
+      "tema": "Microsoft (Charles Lamanna) explica apagão de Outlook, Teams e Copilot em 12-13/11: bug de correção de julho, tráfego do Teams no gateway do Exchange Online e 14% da capacidade já fora; sem ataque",
+      "data": "2026-11-16",
+      "post": "2026-11-16-microsoft-explica-apagao-do-outlook-teams-e-copilot"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/15/inteligencia-artificial/coreia-do-sul-investiga-1o-colocado-em-prova-apos-fraude-com-ia/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/15/inteligencia-artificial/coreia-do-sul-investiga-1o-colocado-em-prova-apos-fraude-com-ia/"
+      ],
+      "tema": "Primeiro colocado no exame de contador fiscal da Coreia do Sul (HRDK, 397,5/400) confessa ter usado microcâmera e ferramenta de IA; polícia de Seul investiga",
+      "data": "2026-11-16",
+      "post": "2026-11-16-candidato-confessa-fraude-com-ia-em-prova-na-coreia"
+    },
+    {
+      "url": "https://canaltech.com.br/inteligencia-artificial/nova-vida-nos-galaxy-vazamento-revela-bixby-50-com-memoria-de-ia-e-tarefas-automaticas/",
+      "urls": [
+        "https://canaltech.com.br/inteligencia-artificial/nova-vida-nos-galaxy-vazamento-revela-bixby-50-com-memoria-de-ia-e-tarefas-automaticas/"
+      ],
+      "tema": "Vazamento de APK (AppX/Android Authority) mostra Bixby 5.0 com memória, agente de tarefas em etapas, aba Ações e Ask Bixby; esperada com One UI 9.5 e Galaxy S27",
+      "data": "2026-11-16",
+      "post": "2026-11-16-vazamento-mostra-bixby-5-com-memoria-e-agente"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+      "urls": [
+        "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+        "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability"
+      ],
+      "tema": "Audible lança audio discovery com prévias geradas por IA (temas e o que leitores gostaram) em títulos em inglês nos EUA; Recaps e Ask a Question ampliados em dezembro",
+      "data": "2026-11-16",
+      "post": "2026-11-16-audible-usa-ia-para-resumir-audiolivros"
     }
   ]
 }
