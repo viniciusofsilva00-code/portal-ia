@@ -169,6 +169,11 @@ Configure em GitHub → repositório → **Settings → Secrets and variables �
 | `CLAUDE_CODE_OAUTH_TOKEN` | Token da sua assinatura Claude (plano Team), gerado com `claude setup-token` |
 | `MAIL_USERNAME` | Endereço Gmail pessoal remetente (ex.: `voce@gmail.com`) |
 | `MAIL_PASSWORD` | Senha de app de 16 caracteres dessa conta Gmail |
+| `MCPAI_KEY` | (opcional) Chave `sk_live_...` da mcp.ai, usada para o aviso pelo WhatsApp |
+| `WHATSAPP_TO` | (opcional) Destino do aviso: telefone com DDI (`5519999999999`) ou JID de grupo (`...@g.us`) |
+
+Sem `MCPAI_KEY` e `WHATSAPP_TO`, o passo **7. Enviar WhatsApp** só registra no log que pulou o envio.
+Se o envio falhar, o e-mail e o resto da rotina não são afetados.
 
 **Token do Claude:** com o Claude Code instalado, rode `claude setup-token`, faça login com a
 conta do seu assento Team e copie o token exibido. Ele tem validade longa. Quando expirar, a

@@ -1,5 +1,6 @@
 // Monta assunto e corpo (HTML simples) do e-mail diário a partir de tmp/relatorio.json
-// e do resultado de cada etapa do workflow. Grava tmp/email.html e exporta `assunto`.
+// e do resultado de cada etapa do workflow. Grava tmp/email.html, tmp/whatsapp.txt
+// (aviso curto enviado por whatsapp.mjs) e exporta `assunto`.
 //
 // Variáveis de ambiente (preenchidas pelo workflow):
 //   INICIO        horário de início do workflow (ISO 8601)
@@ -7,6 +8,7 @@
 //   SITE_URL      URL pública do site (sem barra no fim)
 //   ETAPAS        JSON {"coleta":"success","curadoria":"failure",...} com o outcome de cada etapa
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { montarTextoWhatsapp } from './whatsapp-texto.mjs';
 
 const TZ = 'America/Sao_Paulo';
 const fmtHora = (d) =>
@@ -91,6 +93,17 @@ partes.push('</p></div>');
 
 await mkdir('tmp', { recursive: true });
 await writeFile('tmp/email.html', partes.join('\n'));
+await writeFile(
+  'tmp/whatsapp.txt',
+  montarTextoWhatsapp({
+    hoje,
+    site,
+    runUrl: process.env.RUN_URL || '',
+    falhou,
+    etapasComFalha: etapasComFalha.map(([k, r]) => [NOMES[k] || k, r]),
+    posts,
+  }),
+);
 console.log(`Assunto: ${assunto}`);
 console.log(`Horário de início: ${inicio ? fmtHora(inicio) : '?'} | horário de envio: ${fmtHora(envio)}`);
 if (process.env.GITHUB_OUTPUT) {
