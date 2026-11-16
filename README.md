@@ -172,8 +172,11 @@ Configure em GitHub → repositório → **Settings → Secrets and variables �
 | `MCPAI_KEY` | (opcional) Chave `sk_live_...` da mcp.ai, usada para o aviso pelo WhatsApp |
 | `WHATSAPP_TO` | (opcional) Destino do aviso: telefone com DDI (`5519999999999`) ou JID de grupo (`...@g.us`) |
 
-Sem `MCPAI_KEY` e `WHATSAPP_TO`, o passo **7. Enviar WhatsApp** só registra no log que pulou o envio.
-Se o envio falhar, o e-mail e o resto da rotina não são afetados.
+Sem `MCPAI_KEY` e `WHATSAPP_TO`, o passo **6. Enviar WhatsApp** só registra no log que pulou o envio.
+Ele roda antes do e-mail e tenta até 3 vezes quando a mensagem com certeza não saiu (HTTP 502/503/504
+ou falha de conexão). Em timeout ou HTTP 500 não repete, para não duplicar a mensagem. Se não
+conseguir enviar, o e-mail do dia traz o aviso "Aviso pelo WhatsApp não foi enviado" com o motivo;
+o e-mail e o resto da rotina seguem normalmente.
 
 **Token do Claude:** com o Claude Code instalado, rode `claude setup-token`, faça login com a
 conta do seu assento Team e copie o token exibido. Ele tem validade longa. Quando expirar, a
