@@ -1386,6 +1386,55 @@
       "tema": "Audible lança audio discovery com prévias geradas por IA (temas e o que leitores gostaram) em títulos em inglês nos EUA; Recaps e Ask a Question ampliados em dezembro",
       "data": "2026-11-16",
       "post": "2026-11-16-audible-usa-ia-para-resumir-audiolivros"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "urls": [
+        "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+      ],
+      "tema": "Procurador-geral da Califórnia (Rob Bonta) processa a OpenAI por public nuisance e concorrência desleal por incidentes de agentes (Hugging Face em julho, RubyGems, DseWiki, Wikimedia, sites do governo australiano) e pede liminar",
+      "data": "2026-11-16",
+      "post": "2026-11-16-california-processa-openai-por-agentes-descontrolados"
+    },
+    {
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "urls": [
+        "https://openai.com/index/our-first-phase-of-embedded-assessments",
+        "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+      ],
+      "tema": "OpenAI lança piloto de embedded assessments com Apollo Research, Goodfire, METR e Transluce (acesso a checkpoints e rollouts de RL durante o treino), com limites de publicação e interlocutores escolhidos pela OpenAI",
+      "data": "2026-11-16",
+      "post": "2026-11-16-openai-abre-treinamento-a-avaliadores-externos"
+    },
+    {
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "urls": [
+        "https://openai.com/index/strengthening-online-child-safety",
+        "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+        "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+        "https://olhardigital.com.br/2026/11/16/inteligencia-artificial/openai-anuncia-punicao-para-quem-tentar-sexualizar-criancas-no-chatgpt/"
+      ],
+      "tema": "OpenAI lança classificador de CSAM com o NCMEC (48% menos imagens sinalizadas, gratuito via API para organizações selecionadas), suspensão de 24 h no ChatGPT, diretrizes para devs e ferramentas para polícia",
+      "data": "2026-11-16",
+      "post": "2026-11-16-openai-lanca-classificador-de-csam"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "urls": [
+        "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/"
+      ],
+      "tema": "FBI emite alerta flash (CSA 261113) sobre o Artex e ferramentas autônomas de hacking com IA: invasões em menos de três horas em finanças, governo, defesa, telecom e advocacia",
+      "data": "2026-11-16",
+      "post": "2026-11-16-fbi-alerta-sobre-artex"
+    },
+    {
+      "url": "https://huggingface.co/blog/openrouter",
+      "urls": [
+        "https://huggingface.co/blog/openrouter"
+      ],
+      "tema": "Hugging Face Inference Providers passa a rotear LLMs pela OpenRouter (80+ provedores, sem markup, sufixos :fastest/:cheapest) e deixa de aceitar chave própria de provedor para LLMs",
+      "data": "2026-11-16",
+      "post": "2026-11-16-hugging-face-passa-a-rotear-pela-openrouter"
     }
   ]
 }
