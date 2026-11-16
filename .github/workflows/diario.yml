@@ -179,6 +179,14 @@ jobs:
           subject: ${{ steps.email.outputs.assunto }}
           html_body: file://tmp/email.html
 
+      - name: 7. Enviar WhatsApp
+        if: always() && steps.email.outcome == 'success'
+        continue-on-error: true
+        env:
+          MCPAI_KEY: ${{ secrets.MCPAI_KEY }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+        run: node scripts/whatsapp.mjs
+
       - name: Registrar envio
         if: always()
         run: |
