@@ -1435,6 +1435,77 @@
       "tema": "Hugging Face Inference Providers passa a rotear LLMs pela OpenRouter (80+ provedores, sem markup, sufixos :fastest/:cheapest) e deixa de aceitar chave própria de provedor para LLMs",
       "data": "2026-11-16",
       "post": "2026-11-16-hugging-face-passa-a-rotear-pela-openrouter"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531",
+        "https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis/"
+      ],
+      "tema": "OpenAI lança GPT-6.2 Astra (US$ 8/US$ 40, 20% abaixo do GPT-6 Astra) e GPT-6.2 Sol (US$ 2/US$ 10) no ChatGPT Work, Codex e API; Critical em ciber e primeiro High em autoaprimoramento",
+      "data": "2026-11-17",
+      "post": "2026-11-17-openai-lanca-gpt-6-2-astra-e-sol"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+        "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/"
+      ],
+      "tema": "Google torna gratuito o Tasks (ex-Gemini Spark, antes só AI Ultra nos EUA) com Gemini 4 Hydrogen em EUA, Japão, Coreia, Canadá, Austrália e Índia; ligações e compras via AP2",
+      "data": "2026-11-17",
+      "post": "2026-11-17-gemini-tasks-fica-gratis-em-seis-paises"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+        "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/"
+      ],
+      "tema": "Gemini passa a reter chats temporários/com histórico desligado por cerca de dois meses (antes 72 h) e separa a configuração Keep Activity em histórico e treino de IA",
+      "data": "2026-11-17",
+      "post": "2026-11-17-gemini-guarda-chats-por-dois-meses"
+    },
+    {
+      "url": "https://canaltech.com.br/apps/apple-impoe-limite-de-uso-diario-na-nova-siri-e-exige-assinatura-do-icloud/",
+      "urls": [
+        "https://canaltech.com.br/apps/apple-impoe-limite-de-uso-diario-na-nova-siri-e-exige-assinatura-do-icloud/",
+        "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription"
+      ],
+      "tema": "Beta do iOS 27.3 traz limite diário para Siri AI e recursos de nuvem da Apple Intelligence; planos iCloud+ multiplicam a cota (200 GB 2x até 12 TB 20x)",
+      "data": "2026-11-17",
+      "post": "2026-11-17-apple-limita-siri-ai-por-dia-e-vincula-ao-icloud"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
+      ],
+      "tema": "Teste da Vals: modelos de fronteira marcam civis como alvos militares em simulações; Claude Opus 5.5 escolhe escola iraniana em 69% (72% como jogo); nenhum classificador bloqueou",
+      "data": "2026-11-17",
+      "post": "2026-11-17-modelos-de-ia-marcam-civis-como-alvo-em-teste"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+        "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+        "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update"
+      ],
+      "tema": "Nvidia cria comitê permanente de segurança nacional e exportação (Suzanne Nora Johnson, Neal, Dabiri); Jensen Huang diz que voltaria como CEO; DOJ e Comércio investigam a Megaspeed",
+      "data": "2026-11-17",
+      "post": "2026-11-17-nvidia-cria-comite-de-seguranca-nacional"
+    },
+    {
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "urls": [
+        "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "https://olhardigital.com.br/2026/11/17/inteligencia-artificial/openai-vai-ajudar-a-otan-a-reforcar-a-seguranca-de-suas-redes/"
+      ],
+      "tema": "OpenAI fornece modelos à NCIA da Otan via programa Daybreak para achar vulnerabilidades (até 300 bi de tokens/mês), além de Ucrânia e ENISA",
+      "data": "2026-11-17",
+      "post": "2026-11-17-openai-fornece-modelos-a-otan-para-ciberdefesa"
     }
   ]
 }
