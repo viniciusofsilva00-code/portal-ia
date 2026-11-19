@@ -1567,6 +1567,68 @@
       "tema": "Working paper de Fiona Chen e James Stratton (Harvard, dados Jellyfish de 725.938 devs em 718 empresas): IA eleva linhas (+30%), commits e PRs (+23%), sem ganho detectável em entregas; tempo de merge +49%",
       "data": "2026-11-18",
       "post": "2026-11-18-estudo-harvard-agentes-gargalo-na-revisao"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-4-neon/",
+        "https://tecnoblog.net/noticias/google-lanca-gemini-4-neon-nova-ia-para-tarefas-complexas/",
+        "https://canaltech.com.br/inteligencia-artificial/google-lanca-gemini-4-neon-para-substituir-argon-veja-o-que-muda/"
+      ],
+      "tema": "Google lança Gemini 4 Neon (entre Carbon e Hydrogen, substitui o Argon no app para AI Pro/Ultra): US$ 3/US$ 0,15 cache/US$ 15 por milhão, 1M de contexto, quatro níveis de thinking; 32% mais barato por tarefa que o Carbon segundo o Google",
+      "data": "2026-11-19",
+      "post": "2026-11-19-google-lanca-gemini-4-neon"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "urls": [
+        "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+        "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+        "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+        "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+        "https://tecnoblog.net/noticias/anthropic-dona-do-claude-estreia-na-bolsa-valendo-us-15-trilhao/"
+      ],
+      "tema": "Anthropic estreia na Nasdaq em 19/11: IPO a US$ 83 (faixa US$ 70-78), abertura a US$ 111,50 (+33%), mais de US$ 81 bi captados, valor de mercado acima de US$ 2 tri; Amodei promete dosar o ritmo de treino e lançamento",
+      "data": "2026-11-19",
+      "post": "2026-11-19-anthropic-estreia-na-nasdaq"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "urls": [
+        "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+      ],
+      "tema": "App do Gemini para macOS ganha computer use (apps nativos, arquivos locais e web em segundo plano, com aprovação de ações), só nos EUA, em inglês, para AI Plus/Pro/Ultra",
+      "data": "2026-11-19",
+      "post": "2026-11-19-gemini-no-mac-ganha-computer-use"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+      ],
+      "tema": "Gemini API lança Tool Retrieval em preview na Interactions API (tool_search + defer_loading, modo client-side, suporte a MCP remoto), Gemini 3.6+ e Gemini 4, sem cobrança extra",
+      "data": "2026-11-19",
+      "post": "2026-11-19-gemini-api-tool-retrieval"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "urls": [
+        "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/"
+      ],
+      "tema": "Reuters: funcionários da Meta relatam em chats internos que o agente Muse mistura conversas e exibe saldos bancários, pedidos e mensagens do Signal alheios; Meta diz que saldos não são reais",
+      "data": "2026-11-19",
+      "post": "2026-11-19-muse-da-meta-expoe-dados-de-outros-usuarios"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/19/seguranca/ataque-com-ia-leva-comissao-europeia-a-tirar-aplicativos-do-ar/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/19/seguranca/ataque-com-ia-leva-comissao-europeia-a-tirar-aplicativos-do-ar/"
+      ],
+      "tema": "Comissão Europeia confirma ataque com a ferramenta de IA Artex detectado em 22/10, que derrubou sistemas de RH e reembolso médico por dez dias; Politico aponta possível exposição de dados; BCE alerta para ataques com agentes de IA",
+      "data": "2026-11-19",
+      "post": "2026-11-19-comissao-europeia-atacada-com-artex"
     }
   ]
 }
