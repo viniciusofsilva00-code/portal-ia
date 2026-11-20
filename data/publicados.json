@@ -1629,6 +1629,74 @@
       "tema": "Comissão Europeia confirma ataque com a ferramenta de IA Artex detectado em 22/10, que derrubou sistemas de RH e reembolso médico por dez dias; Politico aponta possível exposição de dados; BCE alerta para ataques com agentes de IA",
       "data": "2026-11-19",
       "post": "2026-11-19-comissao-europeia-atacada-com-artex"
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "urls": [
+        "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+      ],
+      "tema": "METR atualiza gráfico de horizonte de tarefas com tarefas longas/abertas (tempos estimados): código segue exponencial, avaliações desenhadas por IA não úteis, Opus 5.5 'borderline above the bar', modelos abaixo de humanos em argumentos filosóficos (MIT TR)",
+      "data": "2026-11-20",
+      "post": "2026-11-20-metr-atualiza-grafico-de-horizonte-de-tarefas"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/20/internet-e-redes-sociais/signal-bloqueia-capturas-de-tela-para-proteger-mensagens-contra-ia/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/20/internet-e-redes-sociais/signal-bloqueia-capturas-de-tela-para-proteger-mensagens-contra-ia/",
+        "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+      ],
+      "tema": "Signal bloqueia capturas de tela no Android e iOS 27 contra Gemini, Siri e agentes (desativável); Whittaker admite limites e cobra controles de Apple, Google e Microsoft",
+      "data": "2026-11-20",
+      "post": "2026-11-20-signal-bloqueia-captura-de-tela-contra-agentes"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "urls": [
+        "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+        "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+        "https://olhardigital.com.br/2026/11/20/inteligencia-artificial/apple-detalha-agente-de-ia-autonomo-em-anuncio-de-vaga-no-site/"
+      ],
+      "tema": "Vaga da Apple (Bloomberg) descreve agente de computer use que navega, opera apps, roda comandos e programa; lançamento possível no fim de 2027; macOS 27.3 terá avisos contra acesso total de agentes de terceiros",
+      "data": "2026-11-20",
+      "post": "2026-11-20-apple-desenvolve-agente-que-opera-o-mac"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/20/inteligencia-artificial/editora-brasileira-aciona-justica-contra-openai-por-uso-de-livros/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/20/inteligencia-artificial/editora-brasileira-aciona-justica-contra-openai-por-uso-de-livros/"
+      ],
+      "tema": "L&PM protocola notificação judicial no TJ-RS para OpenAI dizer se usou o Books3 e o Dicionário Aulete de Bolso no treino; juiz Vanderlei Deolindo dá 15 dias úteis",
+      "data": "2026-11-20",
+      "post": "2026-11-20-lpm-notifica-openai-por-uso-de-dicionario"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+        "https://olhardigital.com.br/2026/11/20/inteligencia-artificial/ia-confunde-pacote-de-doritos-com-arma-em-escola-de-baltimore/"
+      ],
+      "tema": "Alunos processam escolas do condado de Baltimore, polícia e Omnilert após alerta de arma por IA (pacote de Doritos, Kenwood High, out/2025); Ars cita mais de 99% de falsos positivos",
+      "data": "2026-11-20",
+      "post": "2026-11-20-alunos-processam-escola-e-omnilert-apos-alerta-falso"
+    },
+    {
+      "url": "https://architectlabs.com/blog/frostbite",
+      "urls": [
+        "https://architectlabs.com/blog/frostbite",
+        "https://news.ycombinator.com/item?id=50572503"
+      ],
+      "tema": "Architect Labs apresenta Frostbite, CPU com ISA baseada em interaction nets projetada e verificada por agentes (ASL/Lean), 7 nm pré-silício, 4,59x perf/W contra núcleo in-order não identificado",
+      "data": "2026-11-20",
+      "post": "2026-11-20-architect-labs-frostbite-cpu-projetada-por-ia"
+    },
+    {
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "urls": [
+        "https://huggingface.co/blog/harness-adapters-at-scale"
+      ],
+      "tema": "Hugging Face lança harness adapters: LoRAs treinados com GRPO no Qwen3.8-27B para Pi, OpenCode e Hermes Agent (SWE-bench Pro difícil de 40% para 64% no Pi), super-adapter e pesos publicados",
+      "data": "2026-11-20",
+      "post": "2026-11-20-hugging-face-harness-adapters"
     }
   ]
 }
