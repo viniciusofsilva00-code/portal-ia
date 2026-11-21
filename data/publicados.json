@@ -1697,6 +1697,61 @@
       "tema": "Hugging Face lança harness adapters: LoRAs treinados com GRPO no Qwen3.8-27B para Pi, OpenCode e Hermes Agent (SWE-bench Pro difícil de 40% para 64% no Pi), super-adapter e pesos publicados",
       "data": "2026-11-20",
       "post": "2026-11-20-hugging-face-harness-adapters"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "urls": [
+        "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+        "https://olhardigital.com.br/2026/11/20/inteligencia-artificial/claude-teria-ajudado-a-resolver-um-dos-maiores-enigmas-da-matematica/"
+      ],
+      "tema": "Levent Alpöge (Anthropic) anuncia prova da hipótese de Riemann feita com o Claude e formalizada em Lean (compilada por Andrew Sutherland e outros no Zulip); Alessandro Masullo (Stanford) apresenta prova humana da hipótese generalizada, sem Lean",
+      "data": "2026-11-21",
+      "post": "2026-11-21-matematico-da-anthropic-anuncia-prova-de-riemann-com-claude"
+    },
+    {
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "urls": [
+        "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+      ],
+      "tema": "HD Moore (Dragos) envia quase 2 milhões de prompts com canários por AI routers (OpenRouter, Vercel): três provedores de inferência invadidos, revendedores roubando credenciais, laboratório chinês acessando URLs secretas inclusive em pedidos ZDR",
+      "data": "2026-11-21",
+      "post": "2026-11-21-canarios-expoem-vazamento-em-roteadores-de-ia"
+    },
+    {
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "urls": [
+        "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+      ],
+      "tema": "Trump promete 'imposto tremendo' para empresas americanas que construírem data centers fora dos EUA, após cúpula com Xi e Putin (20/11); sem detalhes, ideia não discutida com a equipe",
+      "data": "2026-11-21",
+      "post": "2026-11-21-trump-ameaca-taxar-data-centers-fora-dos-eua"
+    },
+    {
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "urls": [
+        "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+      ],
+      "tema": "Relatório de sustentabilidade 2026 da Meta reavalia meta net zero de 2030; emissões totais de 15,6 para 21,7+ mi t CO2e (+~40%) e líquidas +45%; Microsoft +25%, Google +18%, Amazon +16%",
+      "data": "2026-11-21",
+      "post": "2026-11-21-meta-revisa-meta-net-zero-2030"
+    },
+    {
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "urls": [
+        "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+      ],
+      "tema": "Nova home do Google.com no desktop (Robby Stein) remove o botão Pesquisa Google, adiciona botões de imagem, arquivos e Gemini e barra lateral com histórico do AI Mode",
+      "data": "2026-11-21",
+      "post": "2026-11-21-google-tira-botao-de-busca-da-home"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/20/internet-e-redes-sociais/tiktok-lanca-ferramentas-para-identificar-conteudos-de-ia-e-deepfakes/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/20/internet-e-redes-sociais/tiktok-lanca-ferramentas-para-identificar-conteudos-de-ia-e-deepfakes/"
+      ],
+      "tema": "TikTok lança Likeness Detection para figuras públicas elegíveis e verificador aberto de conteúdo de IA (Content Credentials + marca d'água VeraDura), só para ferramentas do próprio TikTok; sem previsão para o Brasil",
+      "data": "2026-11-21",
+      "post": "2026-11-21-tiktok-lanca-deteccao-de-deepfakes"
     }
   ]
 }
