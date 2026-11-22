@@ -1752,6 +1752,36 @@
       "tema": "TikTok lança Likeness Detection para figuras públicas elegíveis e verificador aberto de conteúdo de IA (Content Credentials + marca d'água VeraDura), só para ferramentas do próprio TikTok; sem previsão para o Brasil",
       "data": "2026-11-21",
       "post": "2026-11-21-tiktok-lanca-deteccao-de-deepfakes"
+    },
+    {
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "urls": [
+        "https://openai.com/index/perplexity-and-intelligence"
+      ],
+      "tema": "OpenAI (Jakub Pachocki) publica log-perplexidade interna de pré-treino (GPT-3.5 ~0,99, GPT-4 ~0,91, capacidades em ciber/matemática abaixo de 0,8) e propõe limites comuns entre laboratórios baseados em perplexidade; prevê possível aceleração em 2027",
+      "data": "2026-11-22",
+      "post": "2026-11-22-openai-propoe-perplexidade-como-metrica-de-seguranca"
+    },
+    {
+      "url": "https://www.manilatimes.net/2026/11/22/world/americas-emea/countries-open-path-toward-killer-robots-agreement/2475514",
+      "urls": [
+        "https://www.manilatimes.net/2026/11/22/world/americas-emea/countries-open-path-toward-killer-robots-agreement/2475514",
+        "https://www.swissinfo.ch/eng/international-geneva/rules-for-killer-robots-talks-end-with-a-minimal-consensus/92416572",
+        "https://anews.com.tr/world/2026/11/21/un-sees-progress-on-autonomous-weapons-regulation-despite-lack-of-binding-treaty-mandate",
+        "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+      ],
+      "tema": "Sétima Conferência de Revisão da CCW (Genebra, 16-21/11) termina sem mandato para tratado vinculante sobre armas autônomas letais; 128 Estados abrem processo de dois anos (até 2028) para elaborar instrumento; EUA e Rússia resistiram",
+      "data": "2026-11-22",
+      "post": "2026-11-22-onu-adia-tratado-sobre-armas-autonomas"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/22/ciencia-e-espaco/agentes-de-ia-encontraram-um-sitio-maia-inedito-nao-veja-como-dados-sem-revisao-geram-ruido/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/22/ciencia-e-espaco/agentes-de-ia-encontraram-um-sitio-maia-inedito-nao-veja-como-dados-sem-revisao-geram-ruido/"
+      ],
+      "tema": "Pietro Miotti anuncia sítio maia inédito achado por 48 agentes de IA em LiDAR da NASA; arqueólogos mostram que local já estava em estudo de Estrada-Belli (Tulane) e ele admite o erro",
+      "data": "2026-11-22",
+      "post": "2026-11-22-agentes-de-ia-e-o-sitio-maia-que-ja-era-conhecido"
     }
   ]
 }
