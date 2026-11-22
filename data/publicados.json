@@ -1782,6 +1782,25 @@
       "tema": "Pietro Miotti anuncia sítio maia inédito achado por 48 agentes de IA em LiDAR da NASA; arqueólogos mostram que local já estava em estudo de Estrada-Belli (Tulane) e ele admite o erro",
       "data": "2026-11-22",
       "post": "2026-11-22-agentes-de-ia-e-o-sitio-maia-que-ja-era-conhecido"
+    },
+    {
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "urls": [
+        "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+      ],
+      "tema": "Nicalis remove do Binding of Isaac: Repentance Plus músicas geradas no Suno (achadas por ShweetsStuff via metadados) após review bombing na Steam; McMillen diz que não sabia; uso não foi declarado à Valve",
+      "data": "2026-11-22",
+      "post": "2026-11-22-binding-of-isaac-remove-musica-do-suno"
+    },
+    {
+      "url": "https://www.pandex.io/",
+      "urls": [
+        "https://www.pandex.io/",
+        "https://news.ycombinator.com/item?id=50593481"
+      ],
+      "tema": "Pandex lança API e servidor MCP com legislação e jurisprudência europeias (UE e 7 países, 2,8 mi de documentos, versões históricas), beta grátis com 1.000 req/dia, €1 por mil; não é serviço oficial da UE e não identifica a empresa",
+      "data": "2026-11-22",
+      "post": "2026-11-22-pandex-legislacao-europeia-via-mcp"
     }
   ]
 }
