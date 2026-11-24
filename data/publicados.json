@@ -1801,6 +1801,77 @@
       "tema": "Pandex lança API e servidor MCP com legislação e jurisprudência europeias (UE e 7 países, 2,8 mi de documentos, versões históricas), beta grátis com 1.000 req/dia, €1 por mil; não é serviço oficial da UE e não identifica a empresa",
       "data": "2026-11-22",
       "post": "2026-11-22-pandex-legislacao-europeia-via-mcp"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+        "https://olhardigital.com.br/2026/11/24/pro/acoes-da-anthropic-caem-abaixo-do-preco-de-estreia-na-nasdaq/"
+      ],
+      "tema": "Ações da Anthropic caem abaixo do preço do IPO (US$ 83), com mínima de US$ 76 em 24/11; vendas dos Amodei (US$ 280 mi+ cada) e inclusão na MSCI em 30/11",
+      "data": "2026-11-24",
+      "post": "2026-11-24-acoes-da-anthropic-caem-abaixo-do-ipo"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "urls": [
+        "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+        "https://olhardigital.com.br/2026/11/23/inteligencia-artificial/anthropic-lanca-ia-que-revisa-corrige-e-aprova-alteracoes-em-codigos/"
+      ],
+      "tema": "Anthropic lança Claude Ship (Code Review GA, PR Steward e Claude Approvals em beta, política de aprovação em linguagem natural no repositório) para Team/Enterprise com GitHub",
+      "data": "2026-11-24",
+      "post": "2026-11-24-anthropic-lanca-claude-ship"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "urls": [
+        "https://openai.com/business/customer-stories/ifood"
+      ],
+      "tema": "Estudo de caso da OpenAI: iFood roda agentes com GPT-5.6 Luna em 15 mil+ repositórios (Remote Agents Platform), 25 mil+ execuções, 27 bi de tokens, US$ 0,04 por execução",
+      "data": "2026-11-24",
+      "post": "2026-11-24-ifood-roda-agentes-de-codigo-em-15-mil-repositorios"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+      ],
+      "tema": "NCSC do Reino Unido relata alta de ataques com ferramentas autônomas de IA (Artex, Cairn) desde setembro, explorando dívida técnica: senhas fracas, sistemas expostos e APIs",
+      "data": "2026-11-24",
+      "post": "2026-11-24-ncsc-alerta-ataques-com-ia-e-divida-tecnica"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "urls": [
+        "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+        "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+        "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+        "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+      ],
+      "tema": "Nvidia reconduz Jensen Huang a CEO e presidente em 23/11; depoimento público no Comitê Bancário do Senado em 3/12 e em três comitês da Câmara; Trump nega risco à segurança nacional",
+      "data": "2026-11-24",
+      "post": "2026-11-24-nvidia-reconduz-jensen-huang"
+    },
+    {
+      "url": "https://openai.com/index/introducing-shirudo",
+      "urls": [
+        "https://openai.com/index/introducing-shirudo"
+      ],
+      "tema": "OpenAI e Cisco lançam Shirudo, runtime open source (BSD-2) com shields eBPF assinados e verificados por TPM para bloquear exploits em Linux sem reiniciar; shields gerados por agentes (exemplo com Codex no Java4Shell)",
+      "data": "2026-11-24",
+      "post": "2026-11-24-openai-e-cisco-lancam-shirudo"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+        "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+        "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+        "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/"
+      ],
+      "tema": "Tidal bane música 100% gerada por IA a partir de 9/12 e remove mais de 29 mi de faixas até o fim do ano; 43% dos envios em 90 dias eram de IA; música assistida segue permitida",
+      "data": "2026-11-24",
+      "post": "2026-11-24-tidal-bane-musica-gerada-por-ia"
     }
   ]
 }
