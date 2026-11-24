@@ -1872,6 +1872,62 @@
       "tema": "Tidal bane música 100% gerada por IA a partir de 9/12 e remove mais de 29 mi de faixas até o fim do ano; 43% dos envios em 90 dias eram de IA; música assistida segue permitida",
       "data": "2026-11-24",
       "post": "2026-11-24-tidal-bane-musica-gerada-por-ia"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "urls": [
+        "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+        "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+      ],
+      "tema": "Amazon Threat Intelligence (CJ Moses, 20/11) relata ator ligado à China com instância aberta do Cairn: agentes acham zero-day de path traversal em app open source de imagem médica e viram root em ~11 min; 16 h/148 ações contra Redis sem sucesso; fix publicado",
+      "data": "2026-11-24",
+      "post": "2026-11-24-agentes-cairn-acham-zero-day-sozinhos"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+      ],
+      "tema": "Virgínia e Oregon (23/11) processam a SpaceX/SpaceXSI (ex-xAI) por Grok seguir gerando CSAM e imagens íntimas não consensuais; acusam marketing enganoso, pedem liminar, multas e devolução de ganhos",
+      "data": "2026-11-24",
+      "post": "2026-11-24-virginia-e-oregon-processam-spacex-por-grok"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+      ],
+      "tema": "Amazon compra tecnologia e equipe da Decart (Decart Optimization Stack) por ~US$ 7,5 bi segundo a Bloomberg, para otimizar o Trainium; Anthropic e Nvidia também teriam disputado",
+      "data": "2026-11-24",
+      "post": "2026-11-24-amazon-compra-decart-para-otimizar-trainium"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+      ],
+      "tema": "New York Times proíbe freelancers de usar Photoshop 2027 (28.0.0+) porque recursos de IA podem gravar metadados C2PA marcando fotos como geradas por IA",
+      "data": "2026-11-24",
+      "post": "2026-11-24-nyt-veta-photoshop-2027-por-metadados-de-ia"
+    },
+    {
+      "url": "https://blog.documentfoundation.org/blog/2026/11/24/updated-and-more-restrictive-policy-for-llm-usage-in-libreoffice-development/",
+      "urls": [
+        "https://blog.documentfoundation.org/blog/2026/11/24/updated-and-more-restrictive-policy-for-llm-usage-in-libreoffice-development/",
+        "https://tecnoblog.net/noticias/libreoffice-endurece-regras-para-codigo-gerado-por-ia-no-projeto/"
+      ],
+      "tema": "The Document Foundation endurece política de LLMs no LibreOffice: permissão prévia, declaração em commits, explicar cada linha, proibição em commits/comentários/bug reports e em certas áreas do código",
+      "data": "2026-11-24",
+      "post": "2026-11-24-libreoffice-restringe-uso-de-llms"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+      ],
+      "tema": "Meta leva o agente Muse às DMs do Instagram (EUA, Canadá, México, Japão, Singapura) e à organização de posts salvos (EUA e Canadá)",
+      "data": "2026-11-24",
+      "post": "2026-11-24-meta-leva-muse-as-dms-do-instagram"
     }
   ]
 }
