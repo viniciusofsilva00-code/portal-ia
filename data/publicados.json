@@ -1928,6 +1928,64 @@
       "tema": "Meta leva o agente Muse às DMs do Instagram (EUA, Canadá, México, Japão, Singapura) e à organização de posts salvos (EUA e Canadá)",
       "data": "2026-11-24",
       "post": "2026-11-24-meta-leva-muse-as-dms-do-instagram"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+      ],
+      "tema": "OpenAI começa a liberar Chat e Work unificados no ChatGPT para pequeno grupo Pro, com medidor de uso único (Instant ilimitado fora da cota); usuários intensivos podem bater no limite antes; expansão em dezembro",
+      "data": "2026-11-25",
+      "post": "2026-11-25-chatgpt-unifica-chat-e-work-com-cota-unica"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/25/ciencia-e-espaco/spacex-recebe-autorizacao-para-lancar-um-milhao-de-satelites-de-ia/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/25/ciencia-e-espaco/spacex-recebe-autorizacao-para-lancar-um-milhao-de-satelites-de-ia/",
+        "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+      ],
+      "tema": "FCC (Brendan Carr) autoriza SpaceX a lançar até 1 milhão de satélites de data center de IA (Starmind), 500-2.000 km; lançamentos até nov/2033, 100 mil até 2035, metade até 2038; Amazon critica",
+      "data": "2026-11-25",
+      "post": "2026-11-25-fcc-autoriza-starmind-da-spacex"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+      ],
+      "tema": "42 procuradores-gerais estaduais contestam na falência da Character.AI o leilão (1/12) de chats de 21 mi+ contas (2,1 mi de menores); lance inicial da Smirks and Pangs Acquisition LLC; acordo de US$ 20 mi com a Disney também contestado",
+      "data": "2026-11-25",
+      "post": "2026-11-25-estados-contestam-venda-de-chats-da-character-ai"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+      ],
+      "tema": "Nova York (Kathy Hochul) proíbe por cinco anos brinquedos com chatbot de IA (vigência em 90 dias, multa de US$ 15.000/dia), segundo estado após a Califórnia; Common Sense Media testa cinco brinquedos e acha falhas",
+      "data": "2026-11-25",
+      "post": "2026-11-25-nova-york-proibe-brinquedos-com-chatbot"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+        "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+        "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+      ],
+      "tema": "Fortune: Amazon e Meta negociam fim do bloqueio (desde setembro) ao agente Muse na Amazon; pendências em resultados de busca e publicidade; Walmart leva ofertas de Black Friday ao Muse",
+      "data": "2026-11-25",
+      "post": "2026-11-25-amazon-e-meta-negociam-fim-do-bloqueio-ao-muse"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+        "https://tecnoblog.net/noticias/e-dificil-imaginar-que-humanidade-mantera-o-controle-diz-meta-sobre-ia/"
+      ],
+      "tema": "Dario Amodei chama de absurda no X a acusação de que a Anthropic defende entregar o controle humano à IA e admite limites à automelhoria recursiva; Alexandr Wang (Meta) diz ser difícil manter controle sobre RSI irrestrita",
+      "data": "2026-11-25",
+      "post": "2026-11-25-amodei-rebate-acusacoes-sobre-controle-humano"
     }
   ]
 }
