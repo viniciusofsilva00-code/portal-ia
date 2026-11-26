@@ -1986,6 +1986,55 @@
       "tema": "Dario Amodei chama de absurda no X a acusação de que a Anthropic defende entregar o controle humano à IA e admite limites à automelhoria recursiva; Alexandr Wang (Meta) diz ser difícil manter controle sobre RSI irrestrita",
       "data": "2026-11-25",
       "post": "2026-11-25-amodei-rebate-acusacoes-sobre-controle-humano"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/26/inteligencia-artificial/openai-corrige-erro-no-gpt-6-2-e-muda-limites-de-uso-dos-planos/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/26/inteligencia-artificial/openai-corrige-erro-no-gpt-6-2-e-muda-limites-de-uso-dos-planos/"
+      ],
+      "tema": "OpenAI corrige 'desconto indevido' na contagem de uso do GPT-6.2 Astra e Sol (Thibault Sottiaux): limites atingidos 40% (Astra) e 25% (Sol) mais rápido; sem cobrança retroativa e reset único para Go, Plus, Pro e Business",
+      "data": "2026-11-26",
+      "post": "2026-11-26-openai-corrige-contagem-gpt-6-2-limites"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/26/pro/restricoes-dos-eua-podem-atrasar-modelos-de-ia-chineses-ate-2027/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/26/pro/restricoes-dos-eua-podem-atrasar-modelos-de-ia-chineses-ate-2027/",
+        "https://olhardigital.com.br/2026/11/26/pro/nvidia-proibe-envio-de-servidores-para-quatro-paises-asiaticos/"
+      ],
+      "tema": "Reuters: regra de acesso remoto dos EUA e combate à destilação podem adiar GLM-5.5 (Z.AI, ~3 tri parâmetros) para 1T/2027 e Kimi K4 (Moonshot) para meados de 2027; GLM-5.4 (750 bi) lançado em 23/11; Moonshot cancela acordo de US$ 150 mi na Indonésia; FT: Nvidia suspende envio de servidores a Malásia, Singapura, Tailândia e Indonésia",
+      "data": "2026-11-26",
+      "post": "2026-11-26-restricoes-eua-atrasam-glm-5-5-e-kimi-k4"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+        "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/"
+      ],
+      "tema": "S&P coloca em revisão a nota da Nvidia (AA para AA-, decisão em até 90 dias) por governança, falta de sucessão e key man risk; efeito nas garantias a neoclouds e no plano de US$ 500 bi; Huang admite em all-hands ter violado o código de conduta",
+      "data": "2026-11-26",
+      "post": "2026-11-26-sp-avalia-rebaixar-nota-da-nvidia"
+    },
+    {
+      "url": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise",
+      "urls": [
+        "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise",
+        "https://workspace.google.com/terms/ai-tools",
+        "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"
+      ],
+      "tema": "Google lança servidores MCP do Workspace (GA, 8 produtos) e adendo que obriga agentes de IA a usar MCP ou Workspace CLI em vez de REST a partir de 1/2/2027 (cobrança de cota em 1/4/2027); proíbe treino/distillation, retenção de dados derivados limitada a 30 dias; MCP do Gmail não envia/responde (só parceiros)",
+      "data": "2026-11-26",
+      "post": "2026-11-26-google-obriga-agentes-a-usar-mcp-do-workspace"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "urls": [
+        "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+      ],
+      "tema": "Nvidia publica datasets sintéticos (Charts V1 9,98 mi, Tables V1 1 mi, OCR Multilingual v2 7,9 mi), receita SFT+GRPO no NeMo e speculator DFlash2 (até 7,62x de vazão) para o Nemotron 3.5 Parse (0,6B)",
+      "data": "2026-11-26",
+      "post": "2026-11-26-nvidia-abre-dados-e-receita-do-nemotron-3-5-parse"
     }
   ]
 }
