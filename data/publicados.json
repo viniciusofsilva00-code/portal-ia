@@ -2035,6 +2035,55 @@
       "tema": "Nvidia publica datasets sintéticos (Charts V1 9,98 mi, Tables V1 1 mi, OCR Multilingual v2 7,9 mi), receita SFT+GRPO no NeMo e speculator DFlash2 (até 7,62x de vazão) para o Nemotron 3.5 Parse (0,6B)",
       "data": "2026-11-26",
       "post": "2026-11-26-nvidia-abre-dados-e-receita-do-nemotron-3-5-parse"
+    },
+    {
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "urls": [
+        "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "https://www.akitaonrails.com/2026/11/27/novo-competidor-do-qwen-3-8-27bi-inkling-2-mini/",
+        "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
+      ],
+      "tema": "Thinking Machines lança Inkling 2 Mini (20/11, 26,4B, MoE com camadas em loop 3x, pesos abertos); supera Qwen3.8-27B em benchmarks de código; testes do Akita na RTX 5090 (250-346 tok/s com Basalt) e no Strix Halo",
+      "data": "2026-11-27",
+      "post": "2026-11-27-inkling-2-mini-desafia-qwen-3-8-27b"
+    },
+    {
+      "url": "https://www.androidauthority.com/chatgpt-android-call-text-view-screen-3740765/",
+      "urls": [
+        "https://www.androidauthority.com/chatgpt-android-call-text-view-screen-3740765/",
+        "https://tecnoblog.net/noticias/chatgpt-quer-assumir-ligacoes-e-outras-funcoes-basicas-no-android/",
+        "https://canaltech.com.br/inteligencia-artificial/chatgpt-quer-tomar-vaga-do-gemini-no-android-fazendo-ligacoes-e-lendo-a-tela/"
+      ],
+      "tema": "Teardown do ChatGPT para Android 1.2026.328 indica ligações, SMS, controle de mídia, leitura de tela e Dots como assistente padrão; não anunciado",
+      "data": "2026-11-27",
+      "post": "2026-11-27-chatgpt-android-ligacoes-sms-tela"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/27/pro/gigante-alema-sap-avalia-cortar-pelo-menos-10-mil-empregos-por-ia/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/27/pro/gigante-alema-sap-avalia-cortar-pelo-menos-10-mil-empregos-por-ia/"
+      ],
+      "tema": "Bloomberg: SAP avalia cortar pelo menos 10 mil vagas (de 110 mil+) em reestruturação para IA, foco em produto, engenharia e vendas",
+      "data": "2026-11-27",
+      "post": "2026-11-27-sap-avalia-cortar-10-mil-empregos"
+    },
+    {
+      "url": "https://olhardigital.com.br/2026/11/27/games-e-consoles/ubisoft-ia-generativa-desenvolvedores-pressao-interna/",
+      "urls": [
+        "https://olhardigital.com.br/2026/11/27/games-e-consoles/ubisoft-ia-generativa-desenvolvedores-pressao-interna/"
+      ],
+      "tema": "Ubisoft nega obrigar uso de IA generativa; Insider Gaming relata pressão interna (Imaginarium, Project Scout, Motherbrain) e gasto de US$ 1,2 mi/mês em tokens",
+      "data": "2026-11-27",
+      "post": "2026-11-27-ubisoft-nega-obrigar-ia-generativa"
+    },
+    {
+      "url": "https://canaltech.com.br/apps/google-corrige-falha-que-fazia-aba-do-gemini-devorar-memoria-ram-no-chrome/",
+      "urls": [
+        "https://canaltech.com.br/apps/google-corrige-falha-que-fazia-aba-do-gemini-devorar-memoria-ram-no-chrome/"
+      ],
+      "tema": "Google confirma no Reddit correção do consumo excessivo de RAM do Gemini web no Chrome (até 8,4 GB por aba)",
+      "data": "2026-11-27",
+      "post": "2026-11-27-google-corrige-consumo-de-ram-do-gemini-no-chrome"
     }
   ]
 }
